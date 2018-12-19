@@ -1,25 +1,35 @@
 import React, { Component } from "react";
 
+import Header from "./components/UI/header";
+import CreateShell from "./components/create/createshell";
+import SubmitShell from "./components/submit/submitshell";
+import ViewShell from "./components/view/viewshell";
+
+import * as actions from "./actions/actions";
+import { connect } from "react-redux";
+
+import { BrowserRouter, Route } from "react-router-dom";
+
 class App extends Component {
+  componentDidMount() {
+    this.props.syncforms();
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <BrowserRouter>
+        <div>
+          <Route path="/" component={Header} />
+          <Route path="/create" component={CreateShell} />
+          <Route path="/submit" component={SubmitShell} />
+          <Route path="/view" component={ViewShell} />
+        </div>
+      </BrowserRouter>
     );
   }
 }
 
-export default App;
+export default connect(
+  null,
+  actions
+)(App);
