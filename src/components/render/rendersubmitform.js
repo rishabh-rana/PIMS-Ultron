@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 
+import SingleField from "./rendersinglefield";
+import Table from "./rendertable";
+
 class RenderForm extends Component {
   componentDidMount() {
     if (this.props.json.submissionid && this.props.submissionid === null) {
@@ -9,6 +12,16 @@ class RenderForm extends Component {
     } else {
       this.props.getformdata(null);
     }
+
+    if (
+      this.props.submissionid === null &&
+      !this.props.json.hasOwnProperty("submissionid")
+    ) {
+      console.log("check");
+
+      var pub = (parseInt(this.props.json.version) - 1).toString();
+      this.props.startsubmitvaluetodb(this.props.formid, pub);
+    }
   }
 
   render() {
@@ -16,6 +29,7 @@ class RenderForm extends Component {
       json,
       startsubmitvaluetodb,
       writedatatosubmissionid,
+      writetabledatatosubmissionid,
       formid,
       formvalues,
       publishsubmission,
@@ -38,29 +52,51 @@ class RenderForm extends Component {
       <div>
         {json &&
           Object.keys(json).map(id => {
-            let functionhandler = e => {
-              startsubmitvaluetodb(formid, publishedversion, id, e);
-            };
+            let functionhandler = e =>
+              writedatatosubmissionid(
+                this.props.json.submissionid,
+                id,
+                json[id].valuetype,
+                e
+              );
 
-            if (
-              this.props.json.submissionid &&
-              this.props.json.submissionid.length === 20
-            ) {
-              functionhandler = e =>
-                writedatatosubmissionid(this.props.json.submissionid, id, e);
-            }
-            return (
-              <div key={id} className="mt-2">
-                <h5>{json[id].label}</h5>
-                <input
-                  type={json[id].valuetype}
-                  defaultValue={formvalues && formvalues.data[id]}
+            if (json[id].type === "singlefield") {
+              return (
+                <SingleField
+                  key={id}
+                  json={json}
+                  purejson={this.props.json}
                   disabled={disabled}
-                  onKeyPress={functionhandler}
-                  placeholder={json[id].valuetype}
+                  id={id}
+                  formvalues={formvalues}
+                  functionhandler={functionhandler}
+                  blureventhandler={e =>
+                    writedatatosubmissionid(
+                      this.props.json.submissionid,
+                      id,
+                      "blurevent",
+                      e
+                    )
+                  }
                 />
-              </div>
-            );
+              );
+            } else if (json[id].type === "table") {
+              return (
+                <Table
+                  key={id}
+                  tableid={id}
+                  json={json[id]}
+                  purejson={this.props.json}
+                  formvalues={formvalues}
+                  disabled={disabled}
+                  writetabledatatosubmissionid={writetabledatatosubmissionid}
+                  submissionid={this.props.json.submissionid}
+                  formid={formid}
+                  version={publishedversion}
+                  addoffsetaxis={this.props.addoffsetaxis}
+                />
+              );
+            }
           })}
         {!disabled && (
           <button

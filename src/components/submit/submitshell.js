@@ -37,6 +37,8 @@ class SubmitShell extends Component {
           formvalues={this.props.submit.renderformvalues}
           publishsubmission={this.props.publishsubmission}
           disabled={false}
+          writetabledatatosubmissionid={this.props.writetabledatatosubmissionid}
+          addoffsetaxis={this.props.addoffsetaxis}
         />
       );
     }

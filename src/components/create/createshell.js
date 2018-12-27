@@ -29,6 +29,8 @@ const Mainshell = props => {
         formid={props.create.selectedform}
         addnewelement={props.addnewelement}
         publishchangestoform={props.publishchangestoform}
+        selectaxisoftable={props.selectaxisoftable}
+        addnewtableelement={props.addnewtableelement}
       />
     );
   }

@@ -4,7 +4,13 @@ import Addnew from "./addnew";
 import RenderForm from "../render/rendercreateform";
 
 const FormBuilder = props => {
-  var { json, selectform, publishchangestoform } = props;
+  var {
+    json,
+    selectform,
+    publishchangestoform,
+    selectaxisoftable,
+    addnewtableelement
+  } = props;
 
   //for addnew
   var { formid, addnewelement } = props;
@@ -26,7 +32,13 @@ const FormBuilder = props => {
         version={json.version}
       />
       <div className="container mt-2 bg-light">
-        <RenderForm json={json[json.version]} />
+        <RenderForm
+          json={json[json.version]}
+          version={json.version}
+          formid={formid}
+          selectaxisoftable={selectaxisoftable}
+          addnewtableelement={addnewtableelement}
+        />
       </div>
       <button
         className="btn btn-warning mt-3 mb-3 abs-center-x"
