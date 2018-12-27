@@ -1,22 +1,7 @@
 import { database } from "../config/firebase";
 import { storage } from "../config/firebase";
 
-export const createnewform = e => {
-  return dispatch => {
-    if (e.key === "Enter") {
-      var newpushkey = database.child("Forms").push().key;
-      var updates = {};
-      updates["Forms/" + newpushkey + "/title"] = e.target.value;
-      updates["Forms/" + newpushkey + "/created"] = Date.now();
-      updates["Forms/" + newpushkey + "/version"] = 1.0;
-      updates["Forms/" + newpushkey + "/published"] = false;
-      updates["Forms/" + newpushkey + "/unpublishedchanges"] = false;
-      database.update(updates);
-      e.target.value = "";
-    }
-  };
-};
-
+//sync
 export const syncforms = () => {
   return dispatch => {
     database.child("Forms").on("value", snap => {
@@ -24,7 +9,46 @@ export const syncforms = () => {
     });
   };
 };
+export const getformdata = submitid => {
+  return dispatch => {
+    if (submitid !== null) {
+      database.child("Data/" + submitid).off();
+      database.child("Data/" + submitid).on("value", snap => {
+        dispatch({ type: "submitformdatavaluesupdate", payload: snap.val() });
+      });
+    } else {
+      database.child("Data").off();
+      dispatch({ type: "submitformdatavaluesupdate", payload: null });
+    }
+  };
+};
+export const syncsubmissionmeta = () => {
+  return dispatch => {
+    database.child("Submissions").off();
+    database.child("Submissions").on("value", snap => {
+      dispatch({ type: "syncsubmissionmeta", payload: snap.val() });
+    });
+  };
+};
+export const startsubmitvaluetodb = (formid, version) => {
+  return dispatch => {
+    var newpushkey = database
+      .child("Submissions/" + formid + "/" + version + "/")
+      .push().key;
+    var updates = {};
+    updates[
+      "Submissions/" + formid + "/" + version + "/" + newpushkey + "/starttime"
+    ] = Date.now();
+    updates["Forms/" + formid + "/submissionid"] = newpushkey;
+    updates["Data/" + newpushkey + "/latestupdate"] = Date.now();
+    updates["Data/" + newpushkey + "/version"] = version;
 
+    // updates ["Submissions/"+formid+"/"+version+"/"+newpushkey+"/worker"] = Date.now();
+    database.update(updates);
+  };
+};
+
+//selection
 export const selectformcreatemode = id => {
   return dispatch => {
     dispatch({ type: "selectformcreatemode", payload: id });
@@ -49,6 +73,24 @@ export const selectsubmissionviewmode = (id, version) => {
   };
 };
 
+// create new form
+export const createnewform = e => {
+  return dispatch => {
+    if (e.key === "Enter") {
+      var newpushkey = database.child("Forms").push().key;
+      var updates = {};
+      updates["Forms/" + newpushkey + "/title"] = e.target.value;
+      updates["Forms/" + newpushkey + "/created"] = Date.now();
+      updates["Forms/" + newpushkey + "/version"] = 1.0;
+      updates["Forms/" + newpushkey + "/published"] = false;
+      updates["Forms/" + newpushkey + "/unpublishedchanges"] = false;
+      database.update(updates);
+      e.target.value = "";
+    }
+  };
+};
+
+//add element to form
 export const addnewelement = (formid, version, type, valuetype, e) => {
   return dispatch => {
     if (e.key === "Enter") {
@@ -65,31 +107,42 @@ export const addnewelement = (formid, version, type, valuetype, e) => {
       updates[
         "Forms/" + formid + "/" + version + "/" + newpushkey + "/valuetype"
       ] = valuetype;
+
+      if (type === "table") {
+        updates[
+          "Forms/" + formid + "/" + version + "/" + newpushkey + "/axis"
+        ] = "row";
+      }
+
       database.update(updates);
       e.target.value = "";
     }
   };
 };
 
-export const startsubmitvaluetodb = (formid, version) => {
+//delete element from formi
+export const deletesinglefield = (formid, version, id) => {
   return dispatch => {
-    console.log("fired");
-    var newpushkey = database
-      .child("Submissions/" + formid + "/" + version + "/")
-      .push().key;
+    database.child("Forms/" + formid + "/" + version + "/" + id).set(null);
     var updates = {};
-    updates[
-      "Submissions/" + formid + "/" + version + "/" + newpushkey + "/starttime"
-    ] = Date.now();
-    updates["Forms/" + formid + "/submissionid"] = newpushkey;
-    updates["Data/" + newpushkey + "/latestupdate"] = Date.now();
-    updates["Data/" + newpushkey + "/version"] = version;
-
-    // updates ["Submissions/"+formid+"/"+version+"/"+newpushkey+"/worker"] = Date.now();
+    updates["Forms/" + formid + "/unpublishedchanges"] = true;
+    database.update(updates);
+  };
+};
+export const deletesinglefieldtable = (formid, version, tableid, id) => {
+  return dispatch => {
+    database
+      .child(
+        "Forms/" + formid + "/" + version + "/" + tableid + "/axispoints/" + id
+      )
+      .set(null);
+    var updates = {};
+    updates["Forms/" + formid + "/unpublishedchanges"] = true;
     database.update(updates);
   };
 };
 
+//write to db
 export const writedatatosubmissionid = (submitid, id, type, e) => {
   return dispatch => {
     if (type === "string" || type === "number") {
@@ -120,41 +173,19 @@ export const writedatatosubmissionid = (submitid, id, type, e) => {
             });
         });
     } else if (type === "checkbox") {
-      var update = {};
-      update["Data/" + submitid + "/data/" + id] = e.target.checked;
-      database.update(update);
+      var update2 = {};
+      update2["Data/" + submitid + "/data/" + id] = e.target.checked;
+      database.update(update2);
     } else if (type === "blurevent") {
-      var update = {};
-      update["Data/" + submitid + "/data/" + id] = e.target.value;
+      var update3 = {};
+      update3["Data/" + submitid + "/data/" + id] = e.target.value;
 
-      database.update(update);
+      database.update(update3);
     }
   };
 };
 
-export const getformdata = submitid => {
-  return dispatch => {
-    if (submitid !== null) {
-      database.child("Data/" + submitid).off();
-      database.child("Data/" + submitid).on("value", snap => {
-        dispatch({ type: "submitformdatavaluesupdate", payload: snap.val() });
-      });
-    } else {
-      database.child("Data").off();
-      dispatch({ type: "submitformdatavaluesupdate", payload: null });
-    }
-  };
-};
-
-export const syncsubmissionmeta = () => {
-  return dispatch => {
-    database.child("Submissions").off();
-    database.child("Submissions").on("value", snap => {
-      dispatch({ type: "syncsubmissionmeta", payload: snap.val() });
-    });
-  };
-};
-
+//publish changes
 export const publishchangestoform = (id, json) => {
   return dispatch => {
     var updates = {};
@@ -168,7 +199,6 @@ export const publishchangestoform = (id, json) => {
     database.update(updates);
   };
 };
-
 export const publishsubmission = formid => {
   return dispatch => {
     var updates = {};
@@ -178,15 +208,16 @@ export const publishsubmission = formid => {
   };
 };
 
+//table ops
 export const selectaxisoftable = (formid, id, version, e) => {
   return dispatch => {
     var update = {};
     update["Forms/" + formid + "/" + version + "/" + id + "/axis"] =
       e.target.value;
+    update["Forms/" + formid + "/unpublishedchanges"] = true;
     database.update(update);
   };
 };
-
 export const addnewtableelement = (formid, version, id, type, valuetype, e) => {
   return dispatch => {
     if (e.key === "Enter") {
@@ -234,7 +265,6 @@ export const addnewtableelement = (formid, version, id, type, valuetype, e) => {
     }
   };
 };
-
 export const writetabledatatosubmissionid = (
   submitid,
   tableid,
@@ -274,20 +304,19 @@ export const writetabledatatosubmissionid = (
             });
         });
     } else if (type === "checkbox") {
-      var update = {};
-      update["Data/" + submitid + "/data/" + tableid + "/data/" + id] =
+      var update2 = {};
+      update2["Data/" + submitid + "/data/" + tableid + "/data/" + id] =
         e.target.checked;
-      database.update(update);
+      database.update(update2);
     } else if (type === "blurevent") {
-      var update = {};
-      update["Data/" + submitid + "/data/" + tableid + "/data/" + id] =
+      var update3 = {};
+      update3["Data/" + submitid + "/data/" + tableid + "/data/" + id] =
         e.target.value;
 
-      database.update(update);
+      database.update(update3);
     }
   };
 };
-
 export const addoffsetaxis = (formid, version, tableid, valuetypes) => {
   return dispatch => {
     var update = {};
@@ -335,9 +364,71 @@ export const addoffsetaxis = (formid, version, tableid, valuetypes) => {
           "/" +
           newpushkey +
           "/valuetype"
-      ] = valuetypes[valtype];
+      ] = valuetypes[valtype].val;
+
+      if (valuetypes[valtype].hasOwnProperty("options")) {
+        update[
+          "Forms/" +
+            formid +
+            "/" +
+            version +
+            "/" +
+            tableid +
+            "/offsetaxispoints/" +
+            onepushkey +
+            "/" +
+            newpushkey +
+            "/options"
+        ] = valuetypes[valtype].options;
+      }
     }
 
     database.update(update);
+  };
+};
+
+//dropdown ops
+export const addnewoptiontodropdown = (
+  formid,
+  version,
+  tableid,
+  id,
+  options,
+  blurevent,
+  e
+) => {
+  return dispatch => {
+    if (e.key === "Enter") {
+      var update = {};
+      if (options) {
+        options += "$";
+        options += e.target.value.trim();
+      } else {
+        options = "";
+        options += e.target.value.trim();
+      }
+
+      e.target.value = "";
+
+      update["Forms/" + formid + "/unpublishedchanges"] = true;
+      if (tableid === null) {
+        update[
+          "Forms/" + formid + "/" + version + "/" + id + "/options"
+        ] = options;
+      } else {
+        update[
+          "Forms/" +
+            formid +
+            "/" +
+            version +
+            "/" +
+            tableid +
+            "/axispoints/" +
+            id +
+            "/options"
+        ] = options;
+      }
+      database.update(update);
+    }
   };
 };

@@ -24,12 +24,37 @@ const Addnew = props => {
           addnewelement(formid, version, "singlefield", "checkbox", e)
         }
       />
+      <h5>Add Date field</h5>
+      <input
+        onKeyPress={e =>
+          addnewelement(formid, version, "singlefield", "date", e)
+        }
+      />
+      <h5>Add Time field</h5>
+      <input
+        onKeyPress={e =>
+          addnewelement(formid, version, "singlefield", "time", e)
+        }
+      />
+      <h5>Add Datetime field</h5>
+      <input
+        onKeyPress={e =>
+          addnewelement(formid, version, "singlefield", "datetime-local", e)
+        }
+      />
       <h5>Add Image field</h5>
       <input
         onKeyPress={e =>
           addnewelement(formid, version, "singlefield", "file", e)
         }
       />
+      <h5>Add Dropdown field</h5>
+      <input
+        onKeyPress={e =>
+          addnewelement(formid, version, "dropdown", "select", e)
+        }
+      />
+
       <h5>Add Table</h5>
       <input
         onKeyPress={e => addnewelement(formid, version, "table", "string", e)}

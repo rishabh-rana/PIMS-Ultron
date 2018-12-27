@@ -9,7 +9,10 @@ const FormBuilder = props => {
     selectform,
     publishchangestoform,
     selectaxisoftable,
-    addnewtableelement
+    addnewtableelement,
+    addnewoptiontodropdown,
+    deletesinglefield,
+    deletesinglefieldtable
   } = props;
 
   //for addnew
@@ -38,6 +41,9 @@ const FormBuilder = props => {
           formid={formid}
           selectaxisoftable={selectaxisoftable}
           addnewtableelement={addnewtableelement}
+          addnewoptiontodropdown={addnewoptiontodropdown}
+          deletesinglefield={deletesinglefield}
+          deletesinglefieldtable={deletesinglefieldtable}
         />
       </div>
       <button

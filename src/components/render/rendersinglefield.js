@@ -1,5 +1,7 @@
 import React from "react";
 
+import Dropdown from "./renderdropdown";
+
 const SingleField = props => {
   var { id, formvalues } = props;
 
@@ -18,7 +20,7 @@ const SingleField = props => {
             <img
               src={formvalues && formvalues.data && formvalues.data[id]}
               key={formvalues && formvalues.data && formvalues.data[id] + id}
-              alt="no image selected"
+              alt="no selection"
               className="d-block mt-2"
               style={{ width: "100px" }}
             />
@@ -39,7 +41,7 @@ const SingleField = props => {
             <img
               src={formvalues && formvalues.data && formvalues.data[id]}
               key={formvalues && formvalues.data && formvalues.data[id]}
-              alt="no image selected"
+              alt="no selection"
               className="d-block"
               style={{ width: "100px" }}
             />
@@ -60,6 +62,26 @@ const SingleField = props => {
             placeholder={props.json[id].valuetype}
           />
         </div>
+      );
+      break;
+
+    case "select":
+      var ops;
+
+      if (props.dropintableoptions) {
+        ops = props.dropintableoptions;
+      } else {
+        ops = props.json[id].options;
+      }
+      return (
+        <Dropdown
+          key={id}
+          label={props.json[id].label}
+          selectedoption={formvalues && formvalues.data && formvalues.data[id]}
+          options={ops}
+          functionhandler={props.blureventhandler}
+          disabled={props.disabled}
+        />
       );
       break;
 

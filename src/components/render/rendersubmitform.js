@@ -17,8 +17,6 @@ class RenderForm extends Component {
       this.props.submissionid === null &&
       !this.props.json.hasOwnProperty("submissionid")
     ) {
-      console.log("check");
-
       var pub = (parseInt(this.props.json.version) - 1).toString();
       this.props.startsubmitvaluetodb(this.props.formid, pub);
     }
@@ -60,7 +58,10 @@ class RenderForm extends Component {
                 e
               );
 
-            if (json[id].type === "singlefield") {
+            if (
+              json[id].type === "singlefield" ||
+              json[id].type === "dropdown"
+            ) {
               return (
                 <SingleField
                   key={id}

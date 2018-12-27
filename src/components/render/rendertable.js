@@ -29,7 +29,14 @@ const Table = props => {
             Object.keys(json.axispoints)
               .reverse()
               .map(id => {
-                valtypes.push(json.axispoints[id].valuetype);
+                if (json.axispoints[id].valuetype === "select") {
+                  valtypes.push({
+                    val: json.axispoints[id].valuetype,
+                    options: json.axispoints[id].options
+                  });
+                } else {
+                  valtypes.push({ val: json.axispoints[id].valuetype });
+                }
                 return (
                   <div
                     key={id}
@@ -52,10 +59,9 @@ const Table = props => {
                     {Object.keys(json.offsetaxispoints[axisnumber]).map(id => {
                       let formvalhandler = null;
                       if (formvalues && formvalues.data) {
-                        console.log("check");
                         formvalhandler = formvalues.data[tableid];
                       }
-                      console.log(formvalues);
+
                       return (
                         <div className="d-block" key={id}>
                           <div
@@ -132,7 +138,14 @@ const Table = props => {
             Object.keys(json.axispoints)
               .reverse()
               .map(id => {
-                valtypes.push(json.axispoints[id].valuetype);
+                if (json.axispoints[id].valuetype === "select") {
+                  valtypes.push({
+                    val: json.axispoints[id].valuetype,
+                    options: json.axispoints[id].options
+                  });
+                } else {
+                  valtypes.push({ val: json.axispoints[id].valuetype });
+                }
                 return (
                   <div
                     key={id}

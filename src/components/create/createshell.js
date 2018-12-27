@@ -31,6 +31,9 @@ const Mainshell = props => {
         publishchangestoform={props.publishchangestoform}
         selectaxisoftable={props.selectaxisoftable}
         addnewtableelement={props.addnewtableelement}
+        addnewoptiontodropdown={props.addnewoptiontodropdown}
+        deletesinglefield={props.deletesinglefield}
+        deletesinglefieldtable={props.deletesinglefieldtable}
       />
     );
   }
