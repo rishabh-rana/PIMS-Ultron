@@ -15,7 +15,8 @@ const Table = props => {
     version,
     addoffsetaxis
   } = props;
-  var valtypes = [];
+
+  // var valtypes = [];
 
   if (json.axis === "row") {
     return (
@@ -29,14 +30,27 @@ const Table = props => {
             Object.keys(json.axispoints)
               .reverse()
               .map(id => {
-                if (json.axispoints[id].valuetype === "select") {
-                  valtypes.push({
-                    val: json.axispoints[id].valuetype,
-                    options: json.axispoints[id].options
-                  });
-                } else {
-                  valtypes.push({ val: json.axispoints[id].valuetype });
-                }
+                // if (json.axispoints[id].valuetype === "select") {
+                //   valtypes.push({
+                //     val: json.axispoints[id].valuetype,
+                //     options: json.axispoints[id].options
+                //   });
+                // } else {
+                //   valtypes.push({ val: json.axispoints[id].valuetype });
+                // }
+                let addoffsetaxisbutton = <span />;
+                //set addoffsetaxisbutton to this code below to have option to add rows and colums dynamically and uncomment valtypes code
+                // <div style={{ display: "inline-block", width: "100px" }}>
+                //   {!disabled && (
+                //     <button
+                //       onClick={() =>
+                //         addoffsetaxis(formid, version, tableid, valtypes)
+                //       }
+                //     >
+                //       Add
+                //     </button>
+                //   )}
+                // </div>
                 return (
                   <div
                     key={id}
@@ -104,18 +118,6 @@ const Table = props => {
                 );
               })}
           </div>
-
-          <div style={{ display: "inline-block", width: "100px" }}>
-            {!disabled && (
-              <button
-                onClick={() =>
-                  addoffsetaxis(formid, version, tableid, valtypes)
-                }
-              >
-                Add
-              </button>
-            )}
-          </div>
         </div>
       </div>
     );
@@ -138,14 +140,26 @@ const Table = props => {
             Object.keys(json.axispoints)
               .reverse()
               .map(id => {
-                if (json.axispoints[id].valuetype === "select") {
-                  valtypes.push({
-                    val: json.axispoints[id].valuetype,
-                    options: json.axispoints[id].options
-                  });
-                } else {
-                  valtypes.push({ val: json.axispoints[id].valuetype });
-                }
+                // if (json.axispoints[id].valuetype === "select") {
+                //   valtypes.push({
+                //     val: json.axispoints[id].valuetype,
+                //     options: json.axispoints[id].options
+                //   });
+                // } else {
+                //   valtypes.push({ val: json.axispoints[id].valuetype });
+                // }
+
+                // <div style={{ display: "inline-block", width: "100px" }}>
+                //   {!disabled && (
+                //     <button
+                //       onClick={() =>
+                //         addoffsetaxis(formid, version, tableid, valtypes)
+                //       }
+                //     >
+                //       Add
+                //     </button>
+                //   )}
+                // </div>
                 return (
                   <div
                     key={id}
@@ -210,18 +224,6 @@ const Table = props => {
                   </div>
                 );
               })}
-          </div>
-
-          <div style={{ display: "inline-block", width: "100px" }}>
-            {!disabled && (
-              <button
-                onClick={() =>
-                  addoffsetaxis(formid, version, tableid, valtypes)
-                }
-              >
-                Add
-              </button>
-            )}
           </div>
         </div>
       </div>

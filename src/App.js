@@ -13,6 +13,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 class App extends Component {
   componentDidMount() {
     this.props.syncforms();
+    this.props.syncsubmissionmeta();
   }
 
   render() {

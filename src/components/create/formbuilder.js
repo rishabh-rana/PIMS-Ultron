@@ -12,7 +12,8 @@ const FormBuilder = props => {
     addnewtableelement,
     addnewoptiontodropdown,
     deletesinglefield,
-    deletesinglefieldtable
+    deletesinglefieldtable,
+    addoffsetaxis
   } = props;
 
   //for addnew
@@ -44,6 +45,7 @@ const FormBuilder = props => {
           addnewoptiontodropdown={addnewoptiontodropdown}
           deletesinglefield={deletesinglefield}
           deletesinglefieldtable={deletesinglefieldtable}
+          addoffsetaxis={addoffsetaxis}
         />
       </div>
       <button

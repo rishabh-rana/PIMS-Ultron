@@ -1,5 +1,6 @@
 import { database } from "../config/firebase";
 import { storage } from "../config/firebase";
+import { firestore } from "../config/firebase";
 
 //sync
 export const syncforms = () => {
@@ -24,27 +25,58 @@ export const getformdata = submitid => {
 };
 export const syncsubmissionmeta = () => {
   return dispatch => {
-    database.child("Submissions").off();
-    database.child("Submissions").on("value", snap => {
-      dispatch({ type: "syncsubmissionmeta", payload: snap.val() });
-    });
+    //firestore
+    var submeta = [];
+    firestore
+      .collection("Submissions")
+      .where("time", ">", Date.now() - 172800000)
+      .orderBy("time", "desc")
+      .onSnapshot(snap => {
+        snap.forEach(doc => {
+          var data = doc.data();
+          submeta.push([
+            data.f,
+            doc._key.path.segments[doc._key.path.segments.length - 1],
+            data.time,
+            data.v
+          ]);
+        });
+
+        dispatch({ type: "syncsubmissionmeta", payload: submeta });
+      });
+
+    //firestore
+
+    // database.child("Submissions").off();
+    // database.child("Submissions").on("value", snap => {
+    //   dispatch({ type: "syncsubmissionmeta", payload: snap.val() });
+    // });
   };
 };
 export const startsubmitvaluetodb = (formid, version) => {
-  return dispatch => {
-    var newpushkey = database
-      .child("Submissions/" + formid + "/" + version + "/")
-      .push().key;
+  return async dispatch => {
+    var docref = await firestore.collection("Submissions").add({
+      time: Date.now(),
+      f: formid,
+      v: version
+    });
     var updates = {};
-    updates[
-      "Submissions/" + formid + "/" + version + "/" + newpushkey + "/starttime"
-    ] = Date.now();
-    updates["Forms/" + formid + "/submissionid"] = newpushkey;
-    updates["Data/" + newpushkey + "/latestupdate"] = Date.now();
-    updates["Data/" + newpushkey + "/version"] = version;
-
-    // updates ["Submissions/"+formid+"/"+version+"/"+newpushkey+"/worker"] = Date.now();
+    updates["Forms/" + formid + "/submissionid"] = docref.id;
+    updates["Data/" + docref.id + "/latestupdate"] = Date.now();
+    updates["Data/" + docref.id + "/version"] = version.toString();
     database.update(updates);
+
+    // var newpushkey = database
+    //   .child("Submissions/" + formid + "/" + version + "/")
+    //   .push().key;
+    // var updates = {};
+    // updates[
+    //   "Submissions/" + formid + "/" + version + "/" + newpushkey + "/starttime"
+    // ] = Date.now();
+    // updates["Forms/" + formid + "/submissionid"] = newpushkey;
+    // updates["Data/" + newpushkey + "/latestupdate"] = Date.now();
+    // updates["Data/" + newpushkey + "/version"] = version;
+    // database.update(updates);
   };
 };
 
@@ -429,6 +461,56 @@ export const addnewoptiontodropdown = (
         ] = options;
       }
       database.update(update);
+    }
+  };
+};
+
+//searchbox
+export const syncsubmetasearch = (e, clear) => {
+  return dispatch => {
+    var query = new Date(e.target.value).valueOf();
+    console.log(query);
+    if (query && !clear) {
+      var submeta = [];
+      firestore.collection("Submissions").onSnapshot(function() {});
+      firestore
+        .collection("Submissions")
+        .where("time", ">", query - 3600000)
+        .where("time", "<", query + 3600000)
+        .orderBy("time", "desc")
+        .onSnapshot(snap => {
+          snap.forEach(doc => {
+            var data = doc.data();
+            submeta.push([
+              data.f,
+              doc._key.path.segments[doc._key.path.segments.length - 1],
+              data.time,
+              data.v
+            ]);
+          });
+          console.log(submeta);
+          dispatch({ type: "syncsubmissionmeta", payload: submeta });
+        });
+    } else if (clear) {
+      var submeta = [];
+      firestore.collection("Submissions").onSnapshot(function() {});
+      firestore
+        .collection("Submissions")
+        .where("time", ">", Date.now() - 172800000)
+        .orderBy("time", "desc")
+        .onSnapshot(snap => {
+          snap.forEach(doc => {
+            var data = doc.data();
+            submeta.push([
+              data.f,
+              doc._key.path.segments[doc._key.path.segments.length - 1],
+              data.time,
+              data.v
+            ]);
+          });
+          console.log(submeta);
+          dispatch({ type: "syncsubmissionmeta", payload: submeta });
+        });
     }
   };
 };

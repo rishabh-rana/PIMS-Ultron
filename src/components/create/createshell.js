@@ -34,6 +34,7 @@ const Mainshell = props => {
         addnewoptiontodropdown={props.addnewoptiontodropdown}
         deletesinglefield={props.deletesinglefield}
         deletesinglefieldtable={props.deletesinglefieldtable}
+        addoffsetaxis={props.addoffsetaxis}
       />
     );
   }

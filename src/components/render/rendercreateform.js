@@ -11,7 +11,8 @@ const RenderForm = props => {
     addnewtableelement,
     addnewoptiontodropdown,
     deletesinglefield,
-    deletesinglefieldtable
+    deletesinglefieldtable,
+    addoffsetaxis
   } = props;
 
   return (
@@ -94,7 +95,7 @@ const RenderForm = props => {
               </select>
             );
             let content;
-
+            var valtypes = [];
             if (!json[id].hasOwnProperty("axis")) {
               //do something
             } else {
@@ -116,6 +117,17 @@ const RenderForm = props => {
                   />
                   {json[id].hasOwnProperty("axispoints") &&
                     Object.keys(json[id].axispoints).map(subid => {
+                      if (json[id].axispoints[subid].valuetype === "select") {
+                        valtypes.push({
+                          val: json[id].axispoints[subid].valuetype,
+                          options: json[id].axispoints[subid].options
+                        });
+                      } else {
+                        valtypes.push({
+                          val: json[id].axispoints[subid].valuetype
+                        });
+                      }
+
                       if (json[id].axispoints[subid].type === "dropdown") {
                         return (
                           <div key={subid} className="mt-2">
@@ -204,6 +216,20 @@ const RenderForm = props => {
                 {select}
                 {content}
                 <hr />
+                <div style={{ display: "inline-block", width: "100px" }}>
+                  <button
+                    onClick={() => addoffsetaxis(formid, version, id, valtypes)}
+                  >
+                    Add {json[id].axis}s
+                  </button>
+
+                  <h1>
+                    {json &&
+                      json[id].offsetaxispoints &&
+                      Object.keys(json[id].offsetaxispoints).length}{" "}
+                    {json[id].axis}s
+                  </h1>
+                </div>
               </div>
             );
           }

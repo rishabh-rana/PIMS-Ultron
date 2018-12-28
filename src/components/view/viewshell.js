@@ -3,13 +3,14 @@ import React, { Component } from "react";
 import Currentforms from "../create/currentforms";
 import Renderform from "../render/rendersubmitform";
 import Choosesubmission from "./choosesubmission";
+import Searchbox from "./searchbox";
 
 import { connect } from "react-redux";
 import * as actions from "../../actions/actions";
 
 class ViewShell extends Component {
   componentDidMount() {
-    this.props.syncsubmissionmeta();
+    //this.props.syncsubmissionmeta()
   }
   render() {
     let content = (
@@ -73,6 +74,7 @@ class ViewShell extends Component {
     return (
       <div className="container">
         <h1>View Data {backbutton}</h1>
+        <Searchbox syncsubmetasearch={this.props.syncsubmetasearch} />
         {content}
       </div>
     );
