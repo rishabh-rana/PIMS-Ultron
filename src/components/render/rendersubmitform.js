@@ -43,11 +43,13 @@ class RenderForm extends Component {
     } else {
       publishedversion = (parseInt(json.version) - 1).toString();
     }
-
+    var title = json.title;
     json = json[publishedversion];
 
     return (
       <div>
+        <h1>{title}</h1>
+        <hr />
         {json &&
           Object.keys(json).map(id => {
             let functionhandler = e =>

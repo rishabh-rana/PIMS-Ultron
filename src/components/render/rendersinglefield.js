@@ -22,7 +22,7 @@ const SingleField = props => {
               key={formvalues && formvalues.data && formvalues.data[id] + id}
               alt="no selection"
               className="d-block mt-2"
-              style={{ width: "100px" }}
+              style={{ width: "100%" }}
             />
           </div>
         );
@@ -43,7 +43,7 @@ const SingleField = props => {
               key={formvalues && formvalues.data && formvalues.data[id]}
               alt="no selection"
               className="d-block"
-              style={{ width: "100px" }}
+              style={{ width: "100%" }}
             />
           </div>
         );
@@ -59,6 +59,7 @@ const SingleField = props => {
             checked={formvalues && formvalues.data && formvalues.data[id]}
             disabled={props.disabled}
             onChange={props.functionhandler}
+            style={{ width: "100%", minWidth: "30px" }}
             placeholder={props.json[id].valuetype}
           />
         </div>
@@ -81,6 +82,7 @@ const SingleField = props => {
           options={ops}
           functionhandler={props.blureventhandler}
           disabled={props.disabled}
+          style={{ width: "100%" }}
         />
       );
       break;
@@ -96,6 +98,7 @@ const SingleField = props => {
             onKeyPress={props.functionhandler}
             onBlur={props.blureventhandler}
             placeholder={props.json[id].valuetype}
+            style={{ width: "100%" }}
           />
         </div>
       );

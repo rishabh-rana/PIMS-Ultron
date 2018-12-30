@@ -9,12 +9,14 @@ const Choosesubmisson = props => {
 
   var { submissionmeta, selectsubmissionviewmode } = props;
   // submissioneta = [formid, subid, timestamp, version]
+
   let submeta = [];
   for (var sub in submissionmeta) {
     if (submissionmeta[sub][0] === props.formid) {
       submeta.push(submissionmeta[sub]);
     }
   }
+  console.log(submeta);
 
   return (
     <div>

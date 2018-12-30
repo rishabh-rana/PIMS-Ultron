@@ -7,57 +7,84 @@ class Currentforms extends Component {
     // this.props.syncforms();
   }
 
+  state = {
+    active: null
+  };
+
   render() {
     if (this.props.forms === null) {
-      return (
-        <div>
-          <h3>Currently active forms:</h3>
-          {loader}
-        </div>
-      );
+      return <div>{loader}</div>;
     }
 
     var { forms, selectform, filter } = this.props;
-
+    var roman = [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V",
+      "VI",
+      "VII",
+      "VIII",
+      "IX",
+      "X",
+      "XI",
+      "XII",
+      "XIII",
+      "XIV",
+      "XV"
+    ];
+    var count = -1;
     return (
-      <div>
-        {Object.keys(forms).map(id => {
-          if (!filter || forms[id].published) {
-            return (
-              <div key={id} className="card mt-1">
-                <div className="card-body">
-                  <div className="card-title">
+      <div className="container">
+        <div
+          style={{
+            display: "table",
+            width: "100%",
+            marginTop: "3px"
+          }}
+        >
+          <div style={{ display: "table-row", width: "100%" }}>
+            {Object.keys(forms).map(id => {
+              if (!filter || forms[id].published) {
+                count++;
+                let mycount = count;
+                var bg = "rgba(0,0,0,0.2)";
+                if (this.state.active === mycount) {
+                  bg = "rgba(0,0,0,0.4)";
+                }
+                return (
+                  <div
+                    key={id}
+                    style={{
+                      display: "table-cell",
+                      border: "1px solid rgba(0,0,0,0.1)"
+                    }}
+                  >
                     <button
-                      className="btn btn-dark"
-                      onClick={() => selectform(id)}
+                      className="btn btn-light"
+                      style={{
+                        background: bg,
+                        borderRadius: "0",
+                        width: "100%",
+                        cursor: "pointer"
+                      }}
+                      onClick={() => {
+                        this.props.backbutton();
+                        selectform(id);
+                        this.setState({ active: mycount });
+                      }}
                     >
-                      {forms[id].title}
+                      {roman[count]}{" "}
                     </button>
                   </div>
-                  <div className="badge badge-primary">
-                    version: {forms[id].version}
-                  </div>
-                  <div className="badge badge-danger ml-2">
-                    {forms[id].unpublishedchanges && "unpublished changes"}
-                  </div>
-                  <div className="badge badge-primary ml-2">
-                    created:{" "}
-                    {new Intl.DateTimeFormat("en-US", {
-                      year: "numeric",
-                      month: "2-digit",
-                      day: "2-digit",
-                      hour: "2-digit",
-                      minute: "2-digit",
-                      second: "2-digit"
-                    }).format(forms[id].created)}
-                  </div>
-                </div>
-              </div>
-            );
-          } else {
-            return null;
-          }
-        })}
+                );
+              } else {
+                return null;
+              }
+            })}
+          </div>
+        </div>
       </div>
     );
   }

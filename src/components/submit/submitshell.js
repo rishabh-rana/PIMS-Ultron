@@ -8,14 +8,15 @@ import * as actions from "../../actions/actions";
 
 class SubmitShell extends Component {
   render() {
-    let content = (
+    let forms = (
       <Currentforms
         forms={this.props.create.forms}
         selectform={this.props.selectformsubmitmode}
         filter={true}
+        backbutton={() => this.props.selectformsubmitmode(null)}
       />
     );
-
+    let content = <span />;
     let backbutton = <span />;
     if (this.props.submit.selectedform !== null) {
       backbutton = (
@@ -28,6 +29,7 @@ class SubmitShell extends Component {
       );
       content = (
         <RenderForm
+          key={this.props.submit.selectedform}
           json={this.props.create.forms[this.props.submit.selectedform]}
           formid={this.props.submit.selectedform}
           submissionid={null}
@@ -44,9 +46,14 @@ class SubmitShell extends Component {
     }
 
     return (
-      <div className="container">
-        <h1>Submit Forms {backbutton}</h1>
-        {content}
+      <div>
+        {forms}
+        <div
+          className="mt-3"
+          style={{ paddingLeft: "20px", paddingRight: "20px" }}
+        >
+          {content}
+        </div>
       </div>
     );
   }

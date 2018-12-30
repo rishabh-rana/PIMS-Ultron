@@ -17,6 +17,8 @@ const Mainshell = props => {
         forms={props.create.forms}
         selectform={props.selectformcreatemode}
         filter={false}
+        deleteform={props.deleteform}
+        backbutton={() => props.selectformcreatemode(null)}
       />
     </div>
   );
@@ -35,6 +37,7 @@ const Mainshell = props => {
         deletesinglefield={props.deletesinglefield}
         deletesinglefieldtable={props.deletesinglefieldtable}
         addoffsetaxis={props.addoffsetaxis}
+        deleteform={props.deleteform}
       />
     );
   }
@@ -43,6 +46,7 @@ const Mainshell = props => {
     <div className="container">
       <h1>Create Mode</h1>
       <hr />
+
       {content}
     </div>
   );

@@ -20,7 +20,18 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
-          <Route path="/" component={Header} />
+          <Route
+            path="/"
+            component={() => (
+              <Header
+                clearselections={() => {
+                  this.props.selectformviewmode(null);
+                  this.props.selectformsubmitmode(null);
+                  this.props.selectformcreatemode(null);
+                }}
+              />
+            )}
+          />
           <Route path="/create" component={CreateShell} />
           <Route path="/submit" component={SubmitShell} />
           <Route path="/view" component={ViewShell} />

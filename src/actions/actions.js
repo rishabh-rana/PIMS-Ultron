@@ -26,12 +26,13 @@ export const getformdata = submitid => {
 export const syncsubmissionmeta = () => {
   return dispatch => {
     //firestore
-    var submeta = [];
+
     firestore
       .collection("Submissions")
       .where("time", ">", Date.now() - 172800000)
       .orderBy("time", "desc")
       .onSnapshot(snap => {
+        var submeta = [];
         snap.forEach(doc => {
           var data = doc.data();
           submeta.push([
@@ -119,6 +120,11 @@ export const createnewform = e => {
       database.update(updates);
       e.target.value = "";
     }
+  };
+};
+export const deleteform = id => {
+  return dispatch => {
+    database.child("Forms/" + id).set(null);
   };
 };
 

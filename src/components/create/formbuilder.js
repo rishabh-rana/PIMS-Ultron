@@ -28,8 +28,18 @@ const FormBuilder = props => {
   return (
     <div>
       <h1>
-        {json.title} {backbutton}
+        {json.title} {backbutton}{" "}
+        <button
+          className="btn btn-danger"
+          onClick={() => {
+            props.deleteform(formid);
+            selectform(null);
+          }}
+        >
+          Delete Form
+        </button>
       </h1>
+
       <Addnew
         addnewelement={addnewelement}
         formid={formid}
