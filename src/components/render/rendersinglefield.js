@@ -87,6 +87,10 @@ const SingleField = props => {
       );
       break;
 
+    case "empty":
+      return <span key={id} className="mt-2" />;
+      break;
+
     default:
       return (
         <div key={id} className="mt-2">

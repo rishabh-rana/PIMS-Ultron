@@ -1,8 +1,103 @@
 import { database } from "../config/firebase";
 import { storage } from "../config/firebase";
 import { firestore } from "../config/firebase";
+import { auth } from "../config/firebase";
+
+//ErrorHandler
+export const seterrordisplay = (message, color, duration) => {
+  return dispatch => {
+    var error;
+    if (message !== null) {
+      error = {
+        message: message,
+        color: color || null,
+        duration: duration || null
+      };
+    } else {
+      error = null;
+    }
+
+    dispatch({
+      type: "seterrordisplay",
+      payload: error
+    });
+  };
+};
+
+//Auth
+export const signinuser = e => {
+  return dispatch => {
+    e.preventDefault();
+    auth
+      .signInWithEmailAndPassword(e.target[0].value, e.target[1].value)
+      .catch(function(error) {
+        dispatch({
+          type: "seterrordisplay",
+          payload: { message: "Incorrect Email or Password", color: "red" }
+        });
+      });
+  };
+};
+
+export const signupuser = e => {
+  return dispatch => {
+    e.preventDefault();
+    if (e.target[0].value === "supersecret") {
+      auth
+        .createUserWithEmailAndPassword(e.target[1].value, e.target[2].value)
+        .catch(function(error) {
+          dispatch({
+            type: "seterrordisplay",
+            payload: { message: "Cannot Signup", color: "red" }
+          });
+        });
+    } else {
+      dispatch({
+        type: "seterrordisplay",
+        payload: { message: "Wrong project key", color: "red" }
+      });
+    }
+    e.target[0].value = "";
+    e.target[1].value = "";
+    e.target[2].value = "";
+  };
+};
+export const signoutuser = () => {
+  return dispatch => {
+    auth.signOut();
+  };
+};
+export const updateusername = e => {
+  return dispatch => {
+    auth.currentUser.updateProfile({
+      displayName: e.target.value
+    });
+  };
+};
+export const sendresetpasswordemail = () => {
+  return dispatch => {
+    auth.sendPasswordResetEmail(auth.currentUser.email);
+  };
+};
 
 //sync
+export const syncusers = () => {
+  return dispatch => {
+    auth.onAuthStateChanged(function(user) {
+      let usersmall = {
+        displayName: user.displayName,
+        uid: user.uid
+      };
+      if (user) {
+        console.log(user);
+        dispatch({ type: "syncusers", payload: usersmall });
+      } else {
+        console.log("null");
+        dispatch({ type: "syncusers", payload: null });
+      }
+    });
+  };
+};
 export const syncforms = () => {
   return dispatch => {
     database.child("Forms").on("value", snap => {

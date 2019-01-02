@@ -50,65 +50,73 @@ class RenderForm extends Component {
       <div>
         <h1>{title}</h1>
         <hr />
-        {json &&
-          Object.keys(json).map(id => {
-            let functionhandler = e =>
-              writedatatosubmissionid(
-                this.props.json.submissionid,
-                id,
-                json[id].valuetype,
-                e
-              );
+        <div className="row">
+          {json &&
+            Object.keys(json).map(id => {
+              let functionhandler = e =>
+                writedatatosubmissionid(
+                  this.props.json.submissionid,
+                  id,
+                  json[id].valuetype,
+                  e
+                );
 
-            if (
-              json[id].type === "singlefield" ||
-              json[id].type === "dropdown"
-            ) {
-              return (
-                <SingleField
-                  key={id}
-                  json={json}
-                  purejson={this.props.json}
-                  disabled={disabled}
-                  id={id}
-                  formvalues={formvalues}
-                  functionhandler={functionhandler}
-                  blureventhandler={e =>
-                    writedatatosubmissionid(
-                      this.props.json.submissionid,
-                      id,
-                      "blurevent",
-                      e
-                    )
-                  }
-                />
-              );
-            } else if (json[id].type === "table") {
-              return (
-                <Table
-                  key={id}
-                  tableid={id}
-                  json={json[id]}
-                  purejson={this.props.json}
-                  formvalues={formvalues}
-                  disabled={disabled}
-                  writetabledatatosubmissionid={writetabledatatosubmissionid}
-                  submissionid={this.props.json.submissionid}
-                  formid={formid}
-                  version={publishedversion}
-                  addoffsetaxis={this.props.addoffsetaxis}
-                />
-              );
-            }
-          })}
-        {!disabled && (
-          <button
-            className="btn btn-success"
-            onClick={() => publishsubmission(formid)}
-          >
-            Publish
-          </button>
-        )}
+              if (
+                json[id].type === "singlefield" ||
+                json[id].type === "dropdown"
+              ) {
+                return (
+                  <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <SingleField
+                      key={id}
+                      json={json}
+                      purejson={this.props.json}
+                      disabled={disabled}
+                      id={id}
+                      formvalues={formvalues}
+                      functionhandler={functionhandler}
+                      blureventhandler={e =>
+                        writedatatosubmissionid(
+                          this.props.json.submissionid,
+                          id,
+                          "blurevent",
+                          e
+                        )
+                      }
+                    />
+                  </div>
+                );
+              } else if (json[id].type === "table") {
+                return (
+                  <div className="col-12">
+                    <Table
+                      key={id}
+                      tableid={id}
+                      json={json[id]}
+                      purejson={this.props.json}
+                      formvalues={formvalues}
+                      disabled={disabled}
+                      writetabledatatosubmissionid={
+                        writetabledatatosubmissionid
+                      }
+                      submissionid={this.props.json.submissionid}
+                      formid={formid}
+                      version={publishedversion}
+                      addoffsetaxis={this.props.addoffsetaxis}
+                    />
+                  </div>
+                );
+              }
+            })}
+          {!disabled && (
+            <button
+              className="btn btn-success col-12 w-60 mt-5"
+              onClick={() => publishsubmission(formid)}
+            >
+              Publish
+            </button>
+          )}
+        </div>
       </div>
     );
   }

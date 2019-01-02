@@ -3,6 +3,7 @@ import { withRouter } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 import Clock from "./clock";
+import ErrorHandler from "./errorhandler";
 
 class Header extends Component {
   state = {
@@ -31,7 +32,20 @@ class Header extends Component {
       <div>
         <nav className="navbar bg-light">
           <div className="container">
-            <a className="nav-item">Username</a>
+            <Link
+              to="/profile"
+              className="nav-item"
+              style={{ color: "inherit", cursor: "pointer" }}
+            >
+              {this.props.username}
+            </Link>
+            <a
+              onClick={this.props.signoutuser}
+              className="nav-item ml-3"
+              style={{ cursor: "pointer" }}
+            >
+              Signout
+            </a>
             <a className="navbar-brand mx-auto">Ultron</a>
             <a className="nav-item">
               <Clock />
@@ -116,6 +130,7 @@ class Header extends Component {
             </div>
           </div>
         </div>
+        <ErrorHandler />
       </div>
     );
   }
