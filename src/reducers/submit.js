@@ -1,5 +1,5 @@
 const reducer = (
-  state = { selectedform: null, renderformvalues: null },
+  state = { selectedform: null, renderformvalues: null, currentsubids: null },
   action
 ) => {
   if (action.type === "selectformsubmitmode") {
@@ -7,6 +7,9 @@ const reducer = (
   }
   if (action.type === "submitformdatavaluesupdate") {
     return { ...state, renderformvalues: action.payload };
+  }
+  if (action.type === "synccurrentsubids") {
+    return { ...state, currentsubids: action.payload };
   }
   return state;
 };

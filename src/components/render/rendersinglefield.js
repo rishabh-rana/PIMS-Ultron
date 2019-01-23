@@ -7,13 +7,7 @@ const SingleField = props => {
 
   switch (props.json[id].valuetype) {
     case "file":
-      if (!props.disabled && !props.purejson.hasOwnProperty("submissionid")) {
-        return (
-          <div key={id} className="subtext mt-2">
-            Fill out another entry to enter an image
-          </div>
-        );
-      } else if (props.disabled) {
+      if (props.disabled) {
         return (
           <div className="mt-2" key={id}>
             <h5>{props.json[id].label}</h5>
@@ -26,17 +20,18 @@ const SingleField = props => {
             />
           </div>
         );
-      } else if (
-        !props.disabled &&
-        props.purejson.hasOwnProperty("submissionid")
-      ) {
+      } else if (!props.disabled) {
         return (
-          <div key={id} className="mt-2">
-            <h5>{props.json[id].label}</h5>
+          <div key={id} className="mt-2 form-group pl-2 mb-0">
+            <label htmlFor={id} style={{ display: "inline" }}>
+              {props.json[id].label}
+            </label>
             <input
+              id={id}
               type={props.json[id].valuetype}
               disabled={props.disabled}
               onChange={props.functionhandler}
+              className="form-control"
             />
             <img
               src={formvalues && formvalues.data && formvalues.data[id]}
@@ -51,20 +46,34 @@ const SingleField = props => {
       break;
 
     case "checkbox":
+      let bg =
+        formvalues && formvalues.data && formvalues.data[id] ? "green" : "red";
       return (
-        <div key={id} className="mt-2">
-          <h5>{props.json[id].label}</h5>
-          <input
-            type={props.json[id].valuetype}
-            checked={formvalues && formvalues.data && formvalues.data[id]}
-            disabled={props.disabled}
-            onChange={props.functionhandler}
-            style={{ width: "100%", minWidth: "30px" }}
-            placeholder={props.json[id].valuetype}
-          />
+        <div key={id} className="mt-2 form-group pl-2 mb-0">
+          <label style={{ display: "inline" }}>{props.json[id].label}</label>
+          <div
+            style={{
+              background: bg,
+              width: "100%",
+              margin: "0 auto",
+              borderRadius: "0.25rem",
+              border: "1px solid #ced4da",
+              cursor: "pointer",
+              opacity: "0.4"
+            }}
+          >
+            <input
+              type={props.json[id].valuetype}
+              checked={formvalues && formvalues.data && formvalues.data[id]}
+              disabled={props.disabled}
+              onChange={props.functionhandler}
+              style={{ width: "100%", minWidth: "30px", opacity: "0" }}
+              placeholder={props.json[id].valuetype}
+              className="form-control"
+            />
+          </div>
         </div>
       );
-      break;
 
     case "select":
       var ops;
@@ -80,21 +89,27 @@ const SingleField = props => {
           label={props.json[id].label}
           selectedoption={formvalues && formvalues.data && formvalues.data[id]}
           options={ops}
-          functionhandler={props.blureventhandler}
+          functionhandler={props.reactselecthandler}
           disabled={props.disabled}
           style={{ width: "100%" }}
         />
       );
-      break;
 
     case "empty":
       return <span key={id} className="mt-2" />;
       break;
 
+    case "justtext":
+      return (
+        <h6 key={id} className="mt-2 align-bottom">
+          {props.json[id].label}
+        </h6>
+      );
+
     default:
       return (
-        <div key={id} className="mt-2">
-          <h5>{props.json[id].label}</h5>
+        <div key={id} className="mt-2 form-group pl-2 mb-0">
+          <label style={{ display: "inline" }}>{props.json[id].label}</label>
           <input
             type={props.json[id].valuetype}
             defaultValue={formvalues && formvalues.data && formvalues.data[id]}
@@ -103,10 +118,10 @@ const SingleField = props => {
             onBlur={props.blureventhandler}
             placeholder={props.json[id].valuetype}
             style={{ width: "100%" }}
+            className="form-control"
           />
         </div>
       );
-      break;
   }
 
   return <span />;

@@ -84,12 +84,13 @@ export const sendresetpasswordemail = () => {
 export const syncusers = () => {
   return dispatch => {
     auth.onAuthStateChanged(function(user) {
-      let usersmall = {
-        displayName: user.displayName,
-        uid: user.uid
-      };
+      console.log(user);
       if (user) {
-        console.log(user);
+        let usersmall = {
+          displayName: user.displayName,
+          email: user.email,
+          uid: user.uid
+        };
         dispatch({ type: "syncusers", payload: usersmall });
       } else {
         console.log("null");
@@ -100,9 +101,22 @@ export const syncusers = () => {
 };
 export const syncforms = () => {
   return dispatch => {
-    database.child("Forms").on("value", snap => {
-      dispatch({ type: "syncforms", payload: snap.val() });
-    });
+    database.child("Forms").on(
+      "value",
+      snap => {
+        dispatch({ type: "syncforms", payload: snap.val() });
+      },
+      e => {
+        if (e) {
+          console.log(e);
+        }
+      }
+    );
+  };
+};
+export const syncformscache = form => {
+  return dispatch => {
+    dispatch({ type: "syncforms", payload: form.Forms });
   };
 };
 export const getformdata = submitid => {
@@ -126,27 +140,48 @@ export const syncsubmissionmeta = () => {
       .collection("Submissions")
       .where("time", ">", Date.now() - 172800000)
       .orderBy("time", "desc")
-      .onSnapshot(snap => {
-        var submeta = [];
+      .onSnapshot(
+        snap => {
+          var submeta = [];
+          snap.forEach(doc => {
+            var data = doc.data();
+            submeta.push([
+              data.f,
+              doc._key.path.segments[doc._key.path.segments.length - 1],
+              data.time,
+              data.v
+            ]);
+          });
+
+          dispatch({ type: "syncsubmissionmeta", payload: submeta });
+        },
+        e => {
+          if (e) {
+            console.log(e);
+          }
+        }
+      );
+  };
+};
+export const synccurrentsubids = () => {
+  return dispatch => {
+    firestore.collection("Current").onSnapshot(
+      snap => {
+        var submeta = {};
         snap.forEach(doc => {
-          var data = doc.data();
-          submeta.push([
-            data.f,
-            doc._key.path.segments[doc._key.path.segments.length - 1],
-            data.time,
-            data.v
-          ]);
+          submeta[
+            doc._key.path.segments[doc._key.path.segments.length - 1]
+          ] = doc.data().id;
         });
-
-        dispatch({ type: "syncsubmissionmeta", payload: submeta });
-      });
-
-    //firestore
-
-    // database.child("Submissions").off();
-    // database.child("Submissions").on("value", snap => {
-    //   dispatch({ type: "syncsubmissionmeta", payload: snap.val() });
-    // });
+        console.log(submeta);
+        dispatch({ type: "synccurrentsubids", payload: submeta });
+      },
+      e => {
+        if (e) {
+          console.log(e);
+        }
+      }
+    );
   };
 };
 export const startsubmitvaluetodb = (formid, version) => {
@@ -156,23 +191,15 @@ export const startsubmitvaluetodb = (formid, version) => {
       f: formid,
       v: version
     });
+    firestore
+      .collection("Current")
+      .doc(formid)
+      .set({ id: docref.id });
     var updates = {};
-    updates["Forms/" + formid + "/submissionid"] = docref.id;
+    // updates["Forms/" + formid + "/submissionid"] = docref.id;
     updates["Data/" + docref.id + "/latestupdate"] = Date.now();
     updates["Data/" + docref.id + "/version"] = version.toString();
     database.update(updates);
-
-    // var newpushkey = database
-    //   .child("Submissions/" + formid + "/" + version + "/")
-    //   .push().key;
-    // var updates = {};
-    // updates[
-    //   "Submissions/" + formid + "/" + version + "/" + newpushkey + "/starttime"
-    // ] = Date.now();
-    // updates["Forms/" + formid + "/submissionid"] = newpushkey;
-    // updates["Data/" + newpushkey + "/latestupdate"] = Date.now();
-    // updates["Data/" + newpushkey + "/version"] = version;
-    // database.update(updates);
   };
 };
 
@@ -282,9 +309,12 @@ export const writedatatosubmissionid = (submitid, id, type, e) => {
       if (e.key === "Enter") {
         var update = {};
         update["Data/" + submitid + "/data/" + id] = e.target.value;
-
         database.update(update);
       }
+    } else if (type === "dropdown") {
+      var update9 = {};
+      update9["Data/" + submitid + "/data/" + id] = e;
+      database.update(update9);
     } else if (type === "file") {
       var file = e.target.files[0];
 
@@ -334,9 +364,13 @@ export const publishchangestoform = (id, json) => {
 };
 export const publishsubmission = formid => {
   return dispatch => {
-    var updates = {};
-    updates["Forms/" + formid + "/submissionid"] = null;
-    database.update(updates);
+    firestore
+      .collection("Current")
+      .doc(formid)
+      .set({ id: null });
+    // var updates = {};
+    // updates["Forms/" + formid + "/submissionid"] = null;
+    // database.update(updates);
     dispatch({ type: "selectformsubmitmode", payload: null });
   };
 };
@@ -414,6 +448,11 @@ export const writetabledatatosubmissionid = (
 
         database.update(update);
       }
+    } else if (type === "dropdown") {
+      var update9 = {};
+      update9["Data/" + submitid + "/data/" + tableid + "/data/" + id] = e;
+
+      database.update(update9);
     } else if (type === "file") {
       var file = e.target.files[0];
 
@@ -450,17 +489,11 @@ export const writetabledatatosubmissionid = (
     }
   };
 };
-export const addoffsetaxis = (formid, version, tableid, valuetypes) => {
+export const addoffsetaxis = (formid, version, tableid, valuetypes, e) => {
   return dispatch => {
-    var update = {};
-    var onepushkey = database
-      .child(
-        "Forms/" + formid + "/" + version + "/" + tableid + "/offsetaxispoints"
-      )
-      .push().key;
-    var newpushkey;
-    for (var valtype in valuetypes) {
-      newpushkey = database
+    if (e.key === "Enter") {
+      var update = {};
+      var onepushkey = database
         .child(
           "Forms/" +
             formid +
@@ -468,10 +501,10 @@ export const addoffsetaxis = (formid, version, tableid, valuetypes) => {
             version +
             "/" +
             tableid +
-            "/offsetaxispoints/" +
-            onepushkey
+            "/offsetaxispoints"
         )
         .push().key;
+      var newpushkey;
       update[
         "Forms/" +
           formid +
@@ -481,25 +514,21 @@ export const addoffsetaxis = (formid, version, tableid, valuetypes) => {
           tableid +
           "/offsetaxispoints/" +
           onepushkey +
-          "/" +
-          newpushkey +
-          "/type"
-      ] = "singlefield";
-      update[
-        "Forms/" +
-          formid +
-          "/" +
-          version +
-          "/" +
-          tableid +
-          "/offsetaxispoints/" +
-          onepushkey +
-          "/" +
-          newpushkey +
-          "/valuetype"
-      ] = valuetypes[valtype].val;
-
-      if (valuetypes[valtype].hasOwnProperty("options")) {
+          "/label"
+      ] = e.target.value;
+      for (var valtype in valuetypes) {
+        newpushkey = database
+          .child(
+            "Forms/" +
+              formid +
+              "/" +
+              version +
+              "/" +
+              tableid +
+              "/offsetaxispoints/" +
+              onepushkey
+          )
+          .push().key;
         update[
           "Forms/" +
             formid +
@@ -511,12 +540,41 @@ export const addoffsetaxis = (formid, version, tableid, valuetypes) => {
             onepushkey +
             "/" +
             newpushkey +
-            "/options"
-        ] = valuetypes[valtype].options;
-      }
-    }
+            "/type"
+        ] = "singlefield";
+        update[
+          "Forms/" +
+            formid +
+            "/" +
+            version +
+            "/" +
+            tableid +
+            "/offsetaxispoints/" +
+            onepushkey +
+            "/" +
+            newpushkey +
+            "/valuetype"
+        ] = valuetypes[valtype].val;
 
-    database.update(update);
+        if (valuetypes[valtype].hasOwnProperty("options")) {
+          update[
+            "Forms/" +
+              formid +
+              "/" +
+              version +
+              "/" +
+              tableid +
+              "/offsetaxispoints/" +
+              onepushkey +
+              "/" +
+              newpushkey +
+              "/options"
+          ] = valuetypes[valtype].options;
+        }
+      }
+
+      database.update(update);
+    }
   };
 };
 
@@ -593,7 +651,7 @@ export const syncsubmetasearch = (e, clear) => {
           dispatch({ type: "syncsubmissionmeta", payload: submeta });
         });
     } else if (clear) {
-      var submeta = [];
+      var submeta2 = [];
       firestore.collection("Submissions").onSnapshot(function() {});
       firestore
         .collection("Submissions")
@@ -602,15 +660,15 @@ export const syncsubmetasearch = (e, clear) => {
         .onSnapshot(snap => {
           snap.forEach(doc => {
             var data = doc.data();
-            submeta.push([
+            submeta2.push([
               data.f,
               doc._key.path.segments[doc._key.path.segments.length - 1],
               data.time,
               data.v
             ]);
           });
-          console.log(submeta);
-          dispatch({ type: "syncsubmissionmeta", payload: submeta });
+          console.log(submeta2);
+          dispatch({ type: "syncsubmissionmeta", payload: submeta2 });
         });
     }
   };

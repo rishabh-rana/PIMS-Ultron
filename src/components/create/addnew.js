@@ -12,10 +12,22 @@ const Addnew = props => {
           addnewelement(formid, version, "singlefield", "string", e)
         }
       />
-      <h5>Add Empty Space field</h5>
+      <h5>Add Empty Row field</h5>
       <input
         onKeyPress={e =>
-          addnewelement(formid, version, "singlefield", "empty", e)
+          addnewelement(formid, version, "rowchange", "empty", e)
+        }
+      />
+      <h5>Add Section</h5>
+      <input
+        onKeyPress={e =>
+          addnewelement(formid, version, "rowchange", "section", e)
+        }
+      />
+      <h5>Add Text</h5>
+      <input
+        onKeyPress={e =>
+          addnewelement(formid, version, "singlefield", "justtext", e)
         }
       />
       <h5>Add Number field</h5>

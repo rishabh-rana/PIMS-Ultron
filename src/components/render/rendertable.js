@@ -60,7 +60,10 @@ const Table = props => {
             <div style={{ display: "table-row" }}>
               {axispoints.map(label => {
                 return (
-                  <div style={{ display: "table-cell", textAlign: "center" }}>
+                  <div
+                    key={label}
+                    style={{ display: "table-cell", textAlign: "center" }}
+                  >
                     <strong>{label}</strong>
                   </div>
                 );
@@ -70,16 +73,23 @@ const Table = props => {
             {json.hasOwnProperty("offsetaxispoints") &&
               Object.keys(json.offsetaxispoints).map(axisnumber => {
                 serialnumber++;
+                let label =
+                  json.offsetaxispoints[axisnumber].label ||
+                  "Col " + serialnumber;
+
                 return (
                   <div key={axisnumber} style={{ display: "table-row" }}>
                     <div style={{ display: "table-cell", textAlign: "center" }}>
-                      <strong>{serialnumber}</strong>
+                      <strong>{label}</strong>
                     </div>
 
                     {Object.keys(json.offsetaxispoints[axisnumber]).map(id => {
                       let formvalhandler = null;
                       if (formvalues && formvalues.data) {
                         formvalhandler = formvalues.data[tableid];
+                      }
+                      if (id === "label") {
+                        return null;
                       }
 
                       return (
@@ -111,6 +121,15 @@ const Table = props => {
                                   e
                                 )
                               }
+                              reactselecthandler={e =>
+                                writetabledatatosubmissionid(
+                                  submissionid,
+                                  tableid,
+                                  id,
+                                  "dropdown",
+                                  e
+                                )
+                              }
                             />
                           </div>
                         </div>
@@ -133,44 +152,58 @@ const Table = props => {
     if (json.hasOwnProperty("offsetaxispoints")) {
       Object.keys(json.offsetaxispoints).map(axisnumber => {
         serial++;
-        serialnumber.push(serial);
+        let mylabel =
+          json.offsetaxispoints[axisnumber].label || "Row " + serial;
+        serialnumber.push(mylabel);
         var helper = [];
         Object.keys(json.offsetaxispoints[axisnumber]).map(id => {
-          helper.push(
-            <div
-              key={id}
-              style={{ display: "table-cell", textAlign: "center" }}
-            >
-              <SingleField
+          if (id !== "label") {
+            helper.push(
+              <div
                 key={id}
-                json={json.offsetaxispoints[axisnumber]}
-                id={id}
-                purejson={purejson}
-                formvalues={
-                  formvalues && formvalues.data && formvalues.data[tableid]
-                }
-                disabled={disabled}
-                functionhandler={e =>
-                  writetabledatatosubmissionid(
-                    submissionid,
-                    tableid,
-                    id,
-                    json.offsetaxispoints[axisnumber][id].valuetype,
-                    e
-                  )
-                }
-                blureventhandler={e =>
-                  writetabledatatosubmissionid(
-                    submissionid,
-                    tableid,
-                    id,
-                    "blurevent",
-                    e
-                  )
-                }
-              />
-            </div>
-          );
+                style={{ display: "table-cell", textAlign: "center" }}
+              >
+                <SingleField
+                  key={id}
+                  json={json.offsetaxispoints[axisnumber]}
+                  id={id}
+                  purejson={purejson}
+                  formvalues={
+                    formvalues && formvalues.data && formvalues.data[tableid]
+                  }
+                  disabled={disabled}
+                  functionhandler={e =>
+                    writetabledatatosubmissionid(
+                      submissionid,
+                      tableid,
+                      id,
+                      json.offsetaxispoints[axisnumber][id].valuetype,
+                      e
+                    )
+                  }
+                  blureventhandler={e =>
+                    writetabledatatosubmissionid(
+                      submissionid,
+                      tableid,
+                      id,
+                      "blurevent",
+                      e
+                    )
+                  }
+                  reactselecthandler={e =>
+                    writetabledatatosubmissionid(
+                      submissionid,
+                      tableid,
+                      id,
+                      "dropdown",
+                      e
+                    )
+                  }
+                />
+              </div>
+            );
+          }
+
           return null;
         });
         fields.push(helper);

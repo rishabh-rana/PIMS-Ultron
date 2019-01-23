@@ -1,26 +1,24 @@
 import React from "react";
+import Select from "react-select";
 
 const Dropdown = props => {
   var { label, selectedoption, options, functionhandler, disabled } = props;
 
+  var selectoptions = options.split("$").map(op => {
+    return { label: op, value: op };
+  });
+
   return (
-    <div className="mt-2">
-      <h1>{label}</h1>
-      <select
+    <div className="mt-2 form-group pl-2">
+      <label style={{ display: "inline" }}>{label}</label>
+      <Select
         defaultValue={selectedoption}
         key={selectedoption}
         onChange={functionhandler}
-        disabled={disabled}
-      >
-        {options &&
-          options.split("$").map(option => {
-            return (
-              <option value={option} key={option}>
-                {option}
-              </option>
-            );
-          })}
-      </select>
+        isDisabled={disabled}
+        isSearchable
+        options={selectoptions}
+      />
     </div>
   );
 };

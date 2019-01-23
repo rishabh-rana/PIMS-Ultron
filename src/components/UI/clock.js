@@ -11,6 +11,10 @@ class Clock extends Component {
     }, 1 * 1000); // every 1 seconds
   }
 
+  componentWillUnmount() {
+    clearInterval(this.update);
+  }
+
   render() {
     var hour = this.state.time.getHours();
     var shift;

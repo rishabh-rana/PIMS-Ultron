@@ -35,7 +35,7 @@ class Auth extends Component {
         <form onSubmit={functionhandler}>
           {this.state.open && (
             <div className="form-group">
-              <label for="exampleInput">Key for project</label>
+              <label htmlFor="exampleInput">Key for project</label>
               <input
                 type="text"
                 className="form-control"
@@ -47,7 +47,7 @@ class Auth extends Component {
             </div>
           )}
           <div className="form-group">
-            <label for="exampleInputEmail1">Email address</label>
+            <label htmlFor="exampleInputEmail1">Email address</label>
             <input
               type="email"
               className="form-control"
@@ -58,7 +58,7 @@ class Auth extends Component {
             />
           </div>
           <div className="form-group">
-            <label for="exampleInputPassword1">Password</label>
+            <label htmlFor="exampleInputPassword1">Password</label>
             <input
               type="password"
               className="form-control"

@@ -17,19 +17,22 @@ class SubmitShell extends Component {
       />
     );
     let content = <span />;
-    let backbutton = <span />;
+    // let backbutton = <span />;
     if (this.props.submit.selectedform !== null) {
-      backbutton = (
-        <button
-          className="btn btn-warning"
-          onClick={() => this.props.selectformsubmitmode(null)}
-        >
-          back
-        </button>
-      );
+      // backbutton = (
+      //   <button
+      //     className="btn btn-warning"
+      //     onClick={() => this.props.selectformsubmitmode(null)}
+      //   >
+      //     back
+      //   </button>
+      // );
       content = (
         <RenderForm
           key={this.props.submit.selectedform}
+          currentsubid={
+            this.props.submit.currentsubids[this.props.submit.selectedform]
+          }
           json={this.props.create.forms[this.props.submit.selectedform]}
           formid={this.props.submit.selectedform}
           submissionid={null}

@@ -12,11 +12,16 @@ import { connect } from "react-redux";
 
 import { BrowserRouter, Route } from "react-router-dom";
 
+import Forms from "./config/forms.json";
+
 class App extends Component {
   componentDidMount() {
     this.props.syncforms();
+    //uncomment below to go production mode
+    // this.props.syncformscache(Forms);
     this.props.syncsubmissionmeta();
     this.props.syncusers();
+    this.props.synccurrentsubids();
   }
 
   render() {

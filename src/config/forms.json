@@ -1,0 +1,5451 @@
+{
+ "Forms" : {
+    "-LV00es0noD_5BEN_4WT" : {
+      "1" : {
+        "-LV08URsvPspTtDiuYs2" : {
+          "axis" : "column",
+          "axispoints" : {
+            "-LV08YFZJp_f3FgxIz3f" : {
+              "label" : "crease",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV08Z-xqBXAOf0NwkPe" : {
+              "label" : "defect",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV08ZcFxVEGLNMw3qfE" : {
+              "label" : "problem",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV08Zzr0ADSfFf5CAcy" : {
+              "label" : "color",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV08_co_1g7Yn-83VZZ" : {
+              "label" : "edge",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV08a9GbymKRQy7M0td" : {
+              "label" : "round",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV08aWu5sWi8-04hs7w" : {
+              "label" : "brown",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV08azsmYgCFp8hWe2Q" : {
+              "label" : "purple",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            }
+          },
+          "label" : "ZDC",
+          "offsetaxispoints" : {
+            "-LV08c71ohVw7nuCvMF4" : {
+              "-LV08c72dB0HsM9LISyA" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08c72dB0HsM9LISyB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08c72dB0HsM9LISyC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08c72dB0HsM9LISyD" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08c72dB0HsM9LISyE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08c72dB0HsM9LISyF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08c72dB0HsM9LISyG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08c72dB0HsM9LISyH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cBoeRbwVFUte9JF" : {
+              "-LV08cBoeRbwVFUte9JG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cBoeRbwVFUte9JH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cBoeRbwVFUte9JI" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cBoeRbwVFUte9JJ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cBoeRbwVFUte9JK" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cBoeRbwVFUte9JL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cBoeRbwVFUte9JM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cBoeRbwVFUte9JN" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cH6Y-plvLed8kMp" : {
+              "-LV08cH7Ct0lPQcN4imS" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cH7Ct0lPQcN4imT" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cH7Ct0lPQcN4imU" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cH7Ct0lPQcN4imV" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cH7Ct0lPQcN4imW" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cH7Ct0lPQcN4imX" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cH7Ct0lPQcN4imY" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cH7Ct0lPQcN4imZ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cNM3nrqHsLtuWaN" : {
+              "-LV08cNM3nrqHsLtuWaO" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cNM3nrqHsLtuWaP" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cNM3nrqHsLtuWaQ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cNM3nrqHsLtuWaR" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cNM3nrqHsLtuWaS" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cNM3nrqHsLtuWaT" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cNM3nrqHsLtuWaU" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cNM3nrqHsLtuWaV" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cSUkA0Daa3HkXiF" : {
+              "-LV08cSUkA0Daa3HkXiG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cSUkA0Daa3HkXiH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cSUkA0Daa3HkXiI" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cSUkA0Daa3HkXiJ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cSUkA0Daa3HkXiK" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cSUkA0Daa3HkXiL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cSUkA0Daa3HkXiM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cSUkA0Daa3HkXiN" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cWn0faYvmDzSuRU" : {
+              "-LV08cWn0faYvmDzSuRV" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cWn0faYvmDzSuRW" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cWn0faYvmDzSuRX" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cWo6eBsOLFe2YOc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cWo6eBsOLFe2YOd" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cWo6eBsOLFe2YOe" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cWo6eBsOLFe2YOf" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cWo6eBsOLFe2YOg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08caatieMc3JtRJZl" : {
+              "-LV08caatieMc3JtRJZm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08caatieMc3JtRJZn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08caatieMc3JtRJZo" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08caatieMc3JtRJZp" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08caatieMc3JtRJZq" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cabbfKbfzsStZV7" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cabbfKbfzsStZV8" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cabbfKbfzsStZV9" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cfEFc33SNjvcrTX" : {
+              "-LV08cfEFc33SNjvcrTY" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cfEFc33SNjvcrTZ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cfEFc33SNjvcrT_" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cfEFc33SNjvcrTa" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cfEFc33SNjvcrTb" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cfEFc33SNjvcrTc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cfEFc33SNjvcrTd" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cfEFc33SNjvcrTe" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08ckCgfC1EJQK6WuY" : {
+              "-LV08ckCgfC1EJQK6WuZ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08ckCgfC1EJQK6Wu_" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08ckCgfC1EJQK6Wua" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08ckCgfC1EJQK6Wub" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08ckCgfC1EJQK6Wuc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08ckCgfC1EJQK6Wud" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08ckCgfC1EJQK6Wue" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08ckCgfC1EJQK6Wuf" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cnkBZ7CayqgObJh" : {
+              "-LV08cnkBZ7CayqgObJi" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cnkBZ7CayqgObJj" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cnkBZ7CayqgObJk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cnkBZ7CayqgObJl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cnkBZ7CayqgObJm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cnkBZ7CayqgObJn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cnkBZ7CayqgObJo" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cnkBZ7CayqgObJp" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cpyFzXDy7vexxnA" : {
+              "-LV08cpyFzXDy7vexxnB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cpyFzXDy7vexxnC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cpyFzXDy7vexxnD" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cpyFzXDy7vexxnE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cpyFzXDy7vexxnF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cpyFzXDy7vexxnG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cpyFzXDy7vexxnH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cpyFzXDy7vexxnI" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08csMsZPIvUhObWA4" : {
+              "-LV08csN9rYhjNtu7huy" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08csN9rYhjNtu7huz" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08csN9rYhjNtu7hv-" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08csN9rYhjNtu7hv0" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08csN9rYhjNtu7hv1" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08csN9rYhjNtu7hv2" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08csN9rYhjNtu7hv3" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08csN9rYhjNtu7hv4" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cubbmZMBCMaOgez" : {
+              "-LV08cubbmZMBCMaOgf-" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cubbmZMBCMaOgf0" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cubbmZMBCMaOgf1" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cucEFXhuMSM1cBb" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cucEFXhuMSM1cBc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cucEFXhuMSM1cBd" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cucEFXhuMSM1cBe" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cucEFXhuMSM1cBf" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cwgrP_FAUJg_5VX" : {
+              "-LV08cwgrP_FAUJg_5VY" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cwgrP_FAUJg_5VZ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cwgrP_FAUJg_5V_" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cwgrP_FAUJg_5Va" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cwgrP_FAUJg_5Vb" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cwgrP_FAUJg_5Vc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cwgrP_FAUJg_5Vd" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cwgrP_FAUJg_5Ve" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cylRpGkaSYMGaCk" : {
+              "-LV08cylRpGkaSYMGaCl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cylRpGkaSYMGaCm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cylRpGkaSYMGaCn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cylRpGkaSYMGaCo" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cylRpGkaSYMGaCp" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cylRpGkaSYMGaCq" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cylRpGkaSYMGaCr" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cymPOvhuPw5JTdz" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08d-qr2dnQ57UqDPI" : {
+              "-LV08d-qr2dnQ57UqDPJ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d-qr2dnQ57UqDPK" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d-qr2dnQ57UqDPL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d-qr2dnQ57UqDPM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d-qr2dnQ57UqDPN" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d-qr2dnQ57UqDPO" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d-qr2dnQ57UqDPP" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d-rxDih-8FRIudq" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08d1wDnCVWFkXpsrB" : {
+              "-LV08d1wDnCVWFkXpsrC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d1wDnCVWFkXpsrD" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d1wDnCVWFkXpsrE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d1wDnCVWFkXpsrF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d1wDnCVWFkXpsrG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d1wDnCVWFkXpsrH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d1wDnCVWFkXpsrI" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d1wDnCVWFkXpsrJ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08d4-biP_xEcZKzX8" : {
+              "-LV08d4-biP_xEcZKzX9" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d4-biP_xEcZKzXA" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d4-biP_xEcZKzXB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d4-biP_xEcZKzXC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d4-biP_xEcZKzXD" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d4-biP_xEcZKzXE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d4-biP_xEcZKzXF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d4-biP_xEcZKzXG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08d64iuicfdveTi-D" : {
+              "-LV08d65u9oSqUaB06e7" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d65u9oSqUaB06e8" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d65u9oSqUaB06e9" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d65u9oSqUaB06eA" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d65u9oSqUaB06eB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d65u9oSqUaB06eC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d65u9oSqUaB06eD" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d65u9oSqUaB06eE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08d8-EpbnQWiq8nfq" : {
+              "-LV08d8-EpbnQWiq8nfr" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d8-EpbnQWiq8nfs" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d8-EpbnQWiq8nft" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d8-EpbnQWiq8nfu" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d80sAGsXIxkqB6f" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d80sAGsXIxkqB6g" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d80sAGsXIxkqB6h" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d80sAGsXIxkqB6i" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08dAFD3mpoCvpnVoD" : {
+              "-LV08dAFD3mpoCvpnVoE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dAFD3mpoCvpnVoF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dAFD3mpoCvpnVoG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dAGkjhFa5cI1biL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dAGkjhFa5cI1biM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dAGkjhFa5cI1biN" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dAGkjhFa5cI1biO" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dAGkjhFa5cI1biP" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08dCefE0YdngKTrL_" : {
+              "-LV08dCefE0YdngKTrLa" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dCefE0YdngKTrLb" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dCefE0YdngKTrLc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dCefE0YdngKTrLd" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dCefE0YdngKTrLe" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dCefE0YdngKTrLf" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dCefE0YdngKTrLg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dCefE0YdngKTrLh" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08dFWPe3Z28k4clC2" : {
+              "-LV08dFWPe3Z28k4clC3" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dFX_2lvKLFk4ZuB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dFX_2lvKLFk4ZuC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dFX_2lvKLFk4ZuD" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dFX_2lvKLFk4ZuE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dFX_2lvKLFk4ZuF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dFX_2lvKLFk4ZuG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dFX_2lvKLFk4ZuH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08dKxaMhJcbPe6sHT" : {
+              "-LV08dKxaMhJcbPe6sHU" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dKxaMhJcbPe6sHV" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dKxaMhJcbPe6sHW" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dKyUutyOQ_Zo3qr" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dKyUutyOQ_Zo3qs" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dKyUutyOQ_Zo3qt" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dKyUutyOQ_Zo3qu" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dKyUutyOQ_Zo3qv" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            }
+          },
+          "type" : "table",
+          "valuetype" : "string"
+        }
+      },
+      "2" : {
+        "-LV08URsvPspTtDiuYs2" : {
+          "axis" : "column",
+          "axispoints" : {
+            "-LV08YFZJp_f3FgxIz3f" : {
+              "label" : "crease",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV08Z-xqBXAOf0NwkPe" : {
+              "label" : "defect",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV08ZcFxVEGLNMw3qfE" : {
+              "label" : "problem",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV08Zzr0ADSfFf5CAcy" : {
+              "label" : "color",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV08_co_1g7Yn-83VZZ" : {
+              "label" : "edge",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV08a9GbymKRQy7M0td" : {
+              "label" : "round",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV08aWu5sWi8-04hs7w" : {
+              "label" : "brown",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV08azsmYgCFp8hWe2Q" : {
+              "label" : "purple",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            }
+          },
+          "label" : "ZDC",
+          "offsetaxispoints" : {
+            "-LV08c71ohVw7nuCvMF4" : {
+              "-LV08c72dB0HsM9LISyA" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08c72dB0HsM9LISyB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08c72dB0HsM9LISyC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08c72dB0HsM9LISyD" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08c72dB0HsM9LISyE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08c72dB0HsM9LISyF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08c72dB0HsM9LISyG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08c72dB0HsM9LISyH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cBoeRbwVFUte9JF" : {
+              "-LV08cBoeRbwVFUte9JG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cBoeRbwVFUte9JH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cBoeRbwVFUte9JI" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cBoeRbwVFUte9JJ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cBoeRbwVFUte9JK" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cBoeRbwVFUte9JL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cBoeRbwVFUte9JM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cBoeRbwVFUte9JN" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cH6Y-plvLed8kMp" : {
+              "-LV08cH7Ct0lPQcN4imS" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cH7Ct0lPQcN4imT" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cH7Ct0lPQcN4imU" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cH7Ct0lPQcN4imV" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cH7Ct0lPQcN4imW" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cH7Ct0lPQcN4imX" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cH7Ct0lPQcN4imY" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cH7Ct0lPQcN4imZ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cNM3nrqHsLtuWaN" : {
+              "-LV08cNM3nrqHsLtuWaO" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cNM3nrqHsLtuWaP" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cNM3nrqHsLtuWaQ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cNM3nrqHsLtuWaR" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cNM3nrqHsLtuWaS" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cNM3nrqHsLtuWaT" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cNM3nrqHsLtuWaU" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cNM3nrqHsLtuWaV" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cSUkA0Daa3HkXiF" : {
+              "-LV08cSUkA0Daa3HkXiG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cSUkA0Daa3HkXiH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cSUkA0Daa3HkXiI" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cSUkA0Daa3HkXiJ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cSUkA0Daa3HkXiK" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cSUkA0Daa3HkXiL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cSUkA0Daa3HkXiM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cSUkA0Daa3HkXiN" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cWn0faYvmDzSuRU" : {
+              "-LV08cWn0faYvmDzSuRV" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cWn0faYvmDzSuRW" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cWn0faYvmDzSuRX" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cWo6eBsOLFe2YOc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cWo6eBsOLFe2YOd" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cWo6eBsOLFe2YOe" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cWo6eBsOLFe2YOf" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cWo6eBsOLFe2YOg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08caatieMc3JtRJZl" : {
+              "-LV08caatieMc3JtRJZm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08caatieMc3JtRJZn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08caatieMc3JtRJZo" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08caatieMc3JtRJZp" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08caatieMc3JtRJZq" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cabbfKbfzsStZV7" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cabbfKbfzsStZV8" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cabbfKbfzsStZV9" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cfEFc33SNjvcrTX" : {
+              "-LV08cfEFc33SNjvcrTY" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cfEFc33SNjvcrTZ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cfEFc33SNjvcrT_" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cfEFc33SNjvcrTa" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cfEFc33SNjvcrTb" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cfEFc33SNjvcrTc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cfEFc33SNjvcrTd" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cfEFc33SNjvcrTe" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08ckCgfC1EJQK6WuY" : {
+              "-LV08ckCgfC1EJQK6WuZ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08ckCgfC1EJQK6Wu_" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08ckCgfC1EJQK6Wua" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08ckCgfC1EJQK6Wub" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08ckCgfC1EJQK6Wuc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08ckCgfC1EJQK6Wud" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08ckCgfC1EJQK6Wue" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08ckCgfC1EJQK6Wuf" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cnkBZ7CayqgObJh" : {
+              "-LV08cnkBZ7CayqgObJi" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cnkBZ7CayqgObJj" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cnkBZ7CayqgObJk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cnkBZ7CayqgObJl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cnkBZ7CayqgObJm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cnkBZ7CayqgObJn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cnkBZ7CayqgObJo" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cnkBZ7CayqgObJp" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cpyFzXDy7vexxnA" : {
+              "-LV08cpyFzXDy7vexxnB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cpyFzXDy7vexxnC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cpyFzXDy7vexxnD" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cpyFzXDy7vexxnE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cpyFzXDy7vexxnF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cpyFzXDy7vexxnG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cpyFzXDy7vexxnH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cpyFzXDy7vexxnI" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08csMsZPIvUhObWA4" : {
+              "-LV08csN9rYhjNtu7huy" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08csN9rYhjNtu7huz" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08csN9rYhjNtu7hv-" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08csN9rYhjNtu7hv0" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08csN9rYhjNtu7hv1" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08csN9rYhjNtu7hv2" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08csN9rYhjNtu7hv3" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08csN9rYhjNtu7hv4" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cubbmZMBCMaOgez" : {
+              "-LV08cubbmZMBCMaOgf-" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cubbmZMBCMaOgf0" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cubbmZMBCMaOgf1" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cucEFXhuMSM1cBb" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cucEFXhuMSM1cBc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cucEFXhuMSM1cBd" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cucEFXhuMSM1cBe" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cucEFXhuMSM1cBf" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cwgrP_FAUJg_5VX" : {
+              "-LV08cwgrP_FAUJg_5VY" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cwgrP_FAUJg_5VZ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cwgrP_FAUJg_5V_" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cwgrP_FAUJg_5Va" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cwgrP_FAUJg_5Vb" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cwgrP_FAUJg_5Vc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cwgrP_FAUJg_5Vd" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cwgrP_FAUJg_5Ve" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08cylRpGkaSYMGaCk" : {
+              "-LV08cylRpGkaSYMGaCl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cylRpGkaSYMGaCm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cylRpGkaSYMGaCn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cylRpGkaSYMGaCo" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cylRpGkaSYMGaCp" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cylRpGkaSYMGaCq" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cylRpGkaSYMGaCr" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08cymPOvhuPw5JTdz" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08d-qr2dnQ57UqDPI" : {
+              "-LV08d-qr2dnQ57UqDPJ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d-qr2dnQ57UqDPK" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d-qr2dnQ57UqDPL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d-qr2dnQ57UqDPM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d-qr2dnQ57UqDPN" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d-qr2dnQ57UqDPO" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d-qr2dnQ57UqDPP" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d-rxDih-8FRIudq" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08d1wDnCVWFkXpsrB" : {
+              "-LV08d1wDnCVWFkXpsrC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d1wDnCVWFkXpsrD" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d1wDnCVWFkXpsrE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d1wDnCVWFkXpsrF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d1wDnCVWFkXpsrG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d1wDnCVWFkXpsrH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d1wDnCVWFkXpsrI" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d1wDnCVWFkXpsrJ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08d4-biP_xEcZKzX8" : {
+              "-LV08d4-biP_xEcZKzX9" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d4-biP_xEcZKzXA" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d4-biP_xEcZKzXB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d4-biP_xEcZKzXC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d4-biP_xEcZKzXD" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d4-biP_xEcZKzXE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d4-biP_xEcZKzXF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d4-biP_xEcZKzXG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08d64iuicfdveTi-D" : {
+              "-LV08d65u9oSqUaB06e7" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d65u9oSqUaB06e8" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d65u9oSqUaB06e9" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d65u9oSqUaB06eA" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d65u9oSqUaB06eB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d65u9oSqUaB06eC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d65u9oSqUaB06eD" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d65u9oSqUaB06eE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08d8-EpbnQWiq8nfq" : {
+              "-LV08d8-EpbnQWiq8nfr" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d8-EpbnQWiq8nfs" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d8-EpbnQWiq8nft" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d8-EpbnQWiq8nfu" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d80sAGsXIxkqB6f" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d80sAGsXIxkqB6g" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d80sAGsXIxkqB6h" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08d80sAGsXIxkqB6i" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08dAFD3mpoCvpnVoD" : {
+              "-LV08dAFD3mpoCvpnVoE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dAFD3mpoCvpnVoF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dAFD3mpoCvpnVoG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dAGkjhFa5cI1biL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dAGkjhFa5cI1biM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dAGkjhFa5cI1biN" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dAGkjhFa5cI1biO" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dAGkjhFa5cI1biP" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08dCefE0YdngKTrL_" : {
+              "-LV08dCefE0YdngKTrLa" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dCefE0YdngKTrLb" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dCefE0YdngKTrLc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dCefE0YdngKTrLd" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dCefE0YdngKTrLe" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dCefE0YdngKTrLf" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dCefE0YdngKTrLg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dCefE0YdngKTrLh" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08dFWPe3Z28k4clC2" : {
+              "-LV08dFWPe3Z28k4clC3" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dFX_2lvKLFk4ZuB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dFX_2lvKLFk4ZuC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dFX_2lvKLFk4ZuD" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dFX_2lvKLFk4ZuE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dFX_2lvKLFk4ZuF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dFX_2lvKLFk4ZuG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dFX_2lvKLFk4ZuH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV08dKxaMhJcbPe6sHT" : {
+              "-LV08dKxaMhJcbPe6sHU" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dKxaMhJcbPe6sHV" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dKxaMhJcbPe6sHW" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dKyUutyOQ_Zo3qr" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dKyUutyOQ_Zo3qs" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dKyUutyOQ_Zo3qt" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dKyUutyOQ_Zo3qu" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV08dKyUutyOQ_Zo3qv" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            }
+          },
+          "type" : "table",
+          "valuetype" : "string"
+        }
+      },
+      "created" : 1546205435680,
+      "published" : true,
+      "title" : "Profile",
+      "unpublishedchanges" : false,
+      "version" : 2
+    },
+    "-LV00ffprDzmg-rc5pO0" : {
+      "1" : {
+        "-LV09HedUfMjZcL_BVk2" : {
+          "axis" : "row",
+          "axispoints" : {
+            "-LV09IsNb2DRtqS5cBLR" : {
+              "label" : "row ",
+              "type" : "singlefield",
+              "valuetype" : "string"
+            },
+            "-LV09JwtM9vb_e3DPe54" : {
+              "label" : "hello long title",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV09K_bwujJLVjwf159" : {
+              "label" : "check",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV09LBK7cvJJCIZL65t" : {
+              "label" : "dov",
+              "type" : "singlefield",
+              "valuetype" : "date"
+            },
+            "-LV09N3dp3uMwhNBbRQy" : {
+              "label" : "yes",
+              "type" : "singlefield",
+              "valuetype" : "datetime-local"
+            }
+          },
+          "label" : "New",
+          "offsetaxispoints" : {
+            "-LV09Np8P-YL0lAU0LxI" : {
+              "-LV09Np8P-YL0lAU0LxJ" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09Np8P-YL0lAU0LxK" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09Np8P-YL0lAU0LxL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09Np8P-YL0lAU0LxM" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09Np8P-YL0lAU0LxN" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV09NrXg_X459NxCdxM" : {
+              "-LV09NrXg_X459NxCdxN" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09NrXg_X459NxCdxO" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09NrXg_X459NxCdxP" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09NrXg_X459NxCdxQ" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09NrXg_X459NxCdxR" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV09Ntlcm3oNqdV77jR" : {
+              "-LV09Ntlcm3oNqdV77jS" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09Ntlcm3oNqdV77jT" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09Ntmp7Gn4TQnbdYg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09Ntmp7Gn4TQnbdYh" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09Ntmp7Gn4TQnbdYi" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV09NwNO2VM2GusNFLH" : {
+              "-LV09NwOfOaMB1Qb5rV_" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09NwOfOaMB1Qb5rVa" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09NwOfOaMB1Qb5rVb" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09NwOfOaMB1Qb5rVc" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09NwOfOaMB1Qb5rVd" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV09NylEsOD-UuanJNU" : {
+              "-LV09NylEsOD-UuanJNV" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09NylEsOD-UuanJNW" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09NylEsOD-UuanJNX" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09NylEsOD-UuanJNY" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09NylEsOD-UuanJNZ" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV09O-nUFheb1I5_0Kh" : {
+              "-LV09O-nUFheb1I5_0Ki" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09O-nUFheb1I5_0Kj" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09O-nUFheb1I5_0Kk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09O-nUFheb1I5_0Kl" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09O-nUFheb1I5_0Km" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV09O2CBYQBPrrA35U_" : {
+              "-LV09O2CBYQBPrrA35Ua" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09O2CBYQBPrrA35Ub" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09O2CBYQBPrrA35Uc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09O2CBYQBPrrA35Ud" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09O2CBYQBPrrA35Ue" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV09O48l35eY4zU05k_" : {
+              "-LV09O48l35eY4zU05ka" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09O48l35eY4zU05kb" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09O48l35eY4zU05kc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09O48l35eY4zU05kd" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09O49PvTY0tYky41p" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            }
+          },
+          "type" : "table",
+          "valuetype" : "string"
+        }
+      },
+      "2" : {
+        "-LV09HedUfMjZcL_BVk2" : {
+          "axis" : "row",
+          "axispoints" : {
+            "-LV09IsNb2DRtqS5cBLR" : {
+              "label" : "row ",
+              "type" : "singlefield",
+              "valuetype" : "string"
+            },
+            "-LV09JwtM9vb_e3DPe54" : {
+              "label" : "hello long title",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV09K_bwujJLVjwf159" : {
+              "label" : "check",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV09LBK7cvJJCIZL65t" : {
+              "label" : "dov",
+              "type" : "singlefield",
+              "valuetype" : "date"
+            },
+            "-LV09N3dp3uMwhNBbRQy" : {
+              "label" : "yes",
+              "type" : "singlefield",
+              "valuetype" : "datetime-local"
+            }
+          },
+          "label" : "New",
+          "offsetaxispoints" : {
+            "-LV09Np8P-YL0lAU0LxI" : {
+              "-LV09Np8P-YL0lAU0LxJ" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09Np8P-YL0lAU0LxK" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09Np8P-YL0lAU0LxL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09Np8P-YL0lAU0LxM" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09Np8P-YL0lAU0LxN" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV09NrXg_X459NxCdxM" : {
+              "-LV09NrXg_X459NxCdxN" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09NrXg_X459NxCdxO" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09NrXg_X459NxCdxP" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09NrXg_X459NxCdxQ" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09NrXg_X459NxCdxR" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV09Ntlcm3oNqdV77jR" : {
+              "-LV09Ntlcm3oNqdV77jS" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09Ntlcm3oNqdV77jT" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09Ntmp7Gn4TQnbdYg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09Ntmp7Gn4TQnbdYh" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09Ntmp7Gn4TQnbdYi" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV09NwNO2VM2GusNFLH" : {
+              "-LV09NwOfOaMB1Qb5rV_" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09NwOfOaMB1Qb5rVa" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09NwOfOaMB1Qb5rVb" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09NwOfOaMB1Qb5rVc" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09NwOfOaMB1Qb5rVd" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV09NylEsOD-UuanJNU" : {
+              "-LV09NylEsOD-UuanJNV" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09NylEsOD-UuanJNW" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09NylEsOD-UuanJNX" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09NylEsOD-UuanJNY" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09NylEsOD-UuanJNZ" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV09O-nUFheb1I5_0Kh" : {
+              "-LV09O-nUFheb1I5_0Ki" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09O-nUFheb1I5_0Kj" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09O-nUFheb1I5_0Kk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09O-nUFheb1I5_0Kl" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09O-nUFheb1I5_0Km" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV09O2CBYQBPrrA35U_" : {
+              "-LV09O2CBYQBPrrA35Ua" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09O2CBYQBPrrA35Ub" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09O2CBYQBPrrA35Uc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09O2CBYQBPrrA35Ud" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09O2CBYQBPrrA35Ue" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV09O48l35eY4zU05k_" : {
+              "-LV09O48l35eY4zU05ka" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV09O48l35eY4zU05kb" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV09O48l35eY4zU05kc" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV09O48l35eY4zU05kd" : {
+                "type" : "singlefield",
+                "valuetype" : "date"
+              },
+              "-LV09O49PvTY0tYky41p" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            }
+          },
+          "type" : "table",
+          "valuetype" : "string"
+        }
+      },
+      "created" : 1546205438997,
+      "published" : true,
+      "submissionid" : "M700ITPLHJ11a4FWyjVL",
+      "title" : "Options",
+      "unpublishedchanges" : false,
+      "version" : 2
+    },
+    "-LV00gGY1kYulNjcOc6g" : {
+      "1" : {
+        "-LV0R7MT36S50HtB4gQP" : {
+          "axis" : "row",
+          "axispoints" : {
+            "-LV0R8HD2N2c7Z_Vco0O" : {
+              "label" : "name",
+              "type" : "singlefield",
+              "valuetype" : "string"
+            },
+            "-LV0R8ml8Vxvs16kPUiD" : {
+              "label" : "age",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV0R9VxcKBWbi6HFOkl" : {
+              "label" : "gender",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0RANcmGfMM9khvbF0" : {
+              "label" : "dom",
+              "type" : "singlefield",
+              "valuetype" : "datetime-local"
+            }
+          },
+          "label" : "trial",
+          "offsetaxispoints" : {
+            "-LV0RBziAZzY_yTgKZiO" : {
+              "-LV0RBziAZzY_yTgKZiP" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0RBziAZzY_yTgKZiQ" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0RBziAZzY_yTgKZiR" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0RBziAZzY_yTgKZiS" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV0RC3QoZFIYdqEQLJ5" : {
+              "-LV0RC3QoZFIYdqEQLJ6" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0RC3QoZFIYdqEQLJ7" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0RC3QoZFIYdqEQLJ8" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0RC3QoZFIYdqEQLJ9" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV0RC8m437BIcilCpKz" : {
+              "-LV0RC8m437BIcilCpL-" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0RC8m437BIcilCpL0" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0RC8m437BIcilCpL1" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0RC8m437BIcilCpL2" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV0RCDLA7DJccl7Kd9M" : {
+              "-LV0RCDLA7DJccl7Kd9N" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0RCDLA7DJccl7Kd9O" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0RCDLA7DJccl7Kd9P" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0RCDLA7DJccl7Kd9Q" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            }
+          },
+          "type" : "table",
+          "valuetype" : "string"
+        }
+      },
+      "2" : {
+        "-LV0R7MT36S50HtB4gQP" : {
+          "axis" : "row",
+          "axispoints" : {
+            "-LV0R8HD2N2c7Z_Vco0O" : {
+              "label" : "name",
+              "type" : "singlefield",
+              "valuetype" : "string"
+            },
+            "-LV0R8ml8Vxvs16kPUiD" : {
+              "label" : "age",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV0R9VxcKBWbi6HFOkl" : {
+              "label" : "gender",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0RANcmGfMM9khvbF0" : {
+              "label" : "dom",
+              "type" : "singlefield",
+              "valuetype" : "datetime-local"
+            }
+          },
+          "label" : "trial",
+          "offsetaxispoints" : {
+            "-LV0RBziAZzY_yTgKZiO" : {
+              "-LV0RBziAZzY_yTgKZiP" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0RBziAZzY_yTgKZiQ" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0RBziAZzY_yTgKZiR" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0RBziAZzY_yTgKZiS" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV0RC3QoZFIYdqEQLJ5" : {
+              "-LV0RC3QoZFIYdqEQLJ6" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0RC3QoZFIYdqEQLJ7" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0RC3QoZFIYdqEQLJ8" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0RC3QoZFIYdqEQLJ9" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV0RC8m437BIcilCpKz" : {
+              "-LV0RC8m437BIcilCpL-" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0RC8m437BIcilCpL0" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0RC8m437BIcilCpL1" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0RC8m437BIcilCpL2" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            },
+            "-LV0RCDLA7DJccl7Kd9M" : {
+              "-LV0RCDLA7DJccl7Kd9N" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0RCDLA7DJccl7Kd9O" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0RCDLA7DJccl7Kd9P" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0RCDLA7DJccl7Kd9Q" : {
+                "type" : "singlefield",
+                "valuetype" : "datetime-local"
+              }
+            }
+          },
+          "type" : "table",
+          "valuetype" : "string"
+        }
+      },
+      "created" : 1546205441410,
+      "published" : true,
+      "submissionid" : "2Yu1WnkEiD5FbQN1it81",
+      "title" : "Table",
+      "unpublishedchanges" : false,
+      "version" : 2
+    },
+    "-LV0SXluvHP26LNvjtNL" : {
+      "1" : {
+        "-LV0SYnIjwvieq6fXkjm" : {
+          "axis" : "row",
+          "axispoints" : {
+            "-LV0S_-_2TCp1ldajPdu" : {
+              "label" : "geg",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_8mRb282Uo_TFNV" : {
+              "label" : "geger",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_I3D2BXzjaiDrpw" : {
+              "label" : "rgerger",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_PSHzPoQiQvUtMD" : {
+              "label" : "grgerg",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_TlWbokVa2UW6Xy" : {
+              "label" : "erger",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_Z5J7hJvymrlfqq" : {
+              "label" : "gerg",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_d-_XeJHAdQnX3s" : {
+              "label" : "ergre",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_hs_-W75SgVEKiQ" : {
+              "label" : "gerge",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            }
+          },
+          "label" : "efweg",
+          "offsetaxispoints" : {
+            "-LV0SaVsuth44YdUO2ws" : {
+              "-LV0SaVsuth44YdUO2wt" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wu" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wv" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2ww" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wx" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wy" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wz" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVtbCmevhvVWGIM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0Sa_1M0Na7CoWeJyf" : {
+              "-LV0Sa_1M0Na7CoWeJyg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyh" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyi" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyj" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJym" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0SadWLUCUtJ1TgRCk" : {
+              "-LV0SadWLUCUtJ1TgRCl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCo" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCp" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCq" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCr" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCs" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0Sah0Eq82cMPCTSdD" : {
+              "-LV0Sah0Eq82cMPCTSdE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdI" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdJ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdK" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0SajuFVUVLThImBw4" : {
+              "-LV0SajuFVUVLThImBw5" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBw6" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBw7" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBw8" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBw9" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBwA" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBwB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBwC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0Samd-zPFINJE4als" : {
+              "-LV0Samd-zPFINJE4alt" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alu" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alv" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alw" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alx" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4aly" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alz" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4am-" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            }
+          },
+          "type" : "table",
+          "valuetype" : "string"
+        }
+      },
+      "2" : {
+        "-LV0SYnIjwvieq6fXkjm" : {
+          "axis" : "row",
+          "axispoints" : {
+            "-LV0S_-_2TCp1ldajPdu" : {
+              "label" : "geg",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_8mRb282Uo_TFNV" : {
+              "label" : "geger",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_I3D2BXzjaiDrpw" : {
+              "label" : "rgerger",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_PSHzPoQiQvUtMD" : {
+              "label" : "grgerg",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_TlWbokVa2UW6Xy" : {
+              "label" : "erger",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_Z5J7hJvymrlfqq" : {
+              "label" : "gerg",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_d-_XeJHAdQnX3s" : {
+              "label" : "ergre",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_hs_-W75SgVEKiQ" : {
+              "label" : "gerge",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            }
+          },
+          "label" : "efweg",
+          "offsetaxispoints" : {
+            "-LV0SaVsuth44YdUO2ws" : {
+              "-LV0SaVsuth44YdUO2wt" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wu" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wv" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2ww" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wx" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wy" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wz" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVtbCmevhvVWGIM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0Sa_1M0Na7CoWeJyf" : {
+              "-LV0Sa_1M0Na7CoWeJyg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyh" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyi" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyj" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJym" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0SadWLUCUtJ1TgRCk" : {
+              "-LV0SadWLUCUtJ1TgRCl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCo" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCp" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCq" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCr" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCs" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0Sah0Eq82cMPCTSdD" : {
+              "-LV0Sah0Eq82cMPCTSdE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdI" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdJ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdK" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0SajuFVUVLThImBw4" : {
+              "-LV0SajuFVUVLThImBw5" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBw6" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBw7" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBw8" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBw9" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBwA" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBwB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBwC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0Samd-zPFINJE4als" : {
+              "-LV0Samd-zPFINJE4alt" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alu" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alv" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alw" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alx" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4aly" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alz" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4am-" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCE_ZKxo9P62gBcB" : {
+              "-LV0TCE_ZKxo9P62gBcC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCE_ZKxo9P62gBcD" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCE_ZKxo9P62gBcE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCE_ZKxo9P62gBcF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCE_ZKxo9P62gBcG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCE_ZKxo9P62gBcH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCE_ZKxo9P62gBcI" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCE_ZKxo9P62gBcJ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCJ1xp1LZMz0gu0g" : {
+              "-LV0TCJ2RxkRDQKE0RpQ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCJ2RxkRDQKE0RpR" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCJ2RxkRDQKE0RpS" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCJ2RxkRDQKE0RpT" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCJ2RxkRDQKE0RpU" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCJ2RxkRDQKE0RpV" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCJ2RxkRDQKE0RpW" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCJ2RxkRDQKE0RpX" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCN2lSvAEIeNZZeK" : {
+              "-LV0TCN2lSvAEIeNZZeL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCN2lSvAEIeNZZeM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCN2lSvAEIeNZZeN" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCN2lSvAEIeNZZeO" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCN2lSvAEIeNZZeP" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCN2lSvAEIeNZZeQ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCN2lSvAEIeNZZeR" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCN2lSvAEIeNZZeS" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCTQ4n8ri_TY-fUk" : {
+              "-LV0TCTQ4n8ri_TY-fUl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCTQ4n8ri_TY-fUm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCTQ4n8ri_TY-fUn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCTRXzz9qah0rgsp" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCTRXzz9qah0rgsq" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCTRXzz9qah0rgsr" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCTRXzz9qah0rgss" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCTRXzz9qah0rgst" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCVrGQIFa9Mtu0Lz" : {
+              "-LV0TCVrGQIFa9Mtu0M-" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCVrGQIFa9Mtu0M0" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCVrGQIFa9Mtu0M1" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCVrGQIFa9Mtu0M2" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCVrGQIFa9Mtu0M3" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCVrGQIFa9Mtu0M4" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCVrGQIFa9Mtu0M5" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCVrGQIFa9Mtu0M6" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCYEN-AMQU1IHpeb" : {
+              "-LV0TCYEN-AMQU1IHpec" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCYEN-AMQU1IHped" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCYEN-AMQU1IHpee" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCYEN-AMQU1IHpef" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCYEN-AMQU1IHpeg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCYFdpNI6tG39cSu" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCYFdpNI6tG39cSv" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCYFdpNI6tG39cSw" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TC_J7jMt5J4DYK4I" : {
+              "-LV0TC_J7jMt5J4DYK4J" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TC_J7jMt5J4DYK4K" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TC_J7jMt5J4DYK4L" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TC_J7jMt5J4DYK4M" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TC_J7jMt5J4DYK4N" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TC_J7jMt5J4DYK4O" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TC_J7jMt5J4DYK4P" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TC_J7jMt5J4DYK4Q" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCbXwc4-2fbcCpsW" : {
+              "-LV0TCbXwc4-2fbcCpsX" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCbXwc4-2fbcCpsY" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCbXwc4-2fbcCpsZ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCbYOSkZIIgEenAW" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCbYOSkZIIgEenAX" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCbYOSkZIIgEenAY" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCbYOSkZIIgEenAZ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCbYOSkZIIgEenA_" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCdoR8Mrr5YTdcRJ" : {
+              "-LV0TCdoR8Mrr5YTdcRK" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCdoR8Mrr5YTdcRL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCdoR8Mrr5YTdcRM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCdp0UhLRHUdsPId" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCdp0UhLRHUdsPIe" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCdp0UhLRHUdsPIf" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCdp0UhLRHUdsPIg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCdp0UhLRHUdsPIh" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCfqTCK-due3ErOh" : {
+              "-LV0TCfr_XcvEQjyIzK4" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCfr_XcvEQjyIzK5" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCfr_XcvEQjyIzK6" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCfr_XcvEQjyIzK7" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCfr_XcvEQjyIzK8" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCfr_XcvEQjyIzK9" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCfr_XcvEQjyIzKA" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCfr_XcvEQjyIzKB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCi4sCsllGyEu0hl" : {
+              "-LV0TCi4sCsllGyEu0hm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCi4sCsllGyEu0hn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCi5nNEm7CVZd6xi" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCi5nNEm7CVZd6xj" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCi5nNEm7CVZd6xk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCi5nNEm7CVZd6xl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCi5nNEm7CVZd6xm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCi5nNEm7CVZd6xn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCkVAMSNGYdaSnCj" : {
+              "-LV0TCkVAMSNGYdaSnCk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCkVAMSNGYdaSnCl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCkVAMSNGYdaSnCm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCkVAMSNGYdaSnCn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCkVAMSNGYdaSnCo" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCkVAMSNGYdaSnCp" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCkVAMSNGYdaSnCq" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCkVAMSNGYdaSnCr" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCmbCAG0LtZsXI19" : {
+              "-LV0TCmbCAG0LtZsXI1A" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCmbCAG0LtZsXI1B" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCmbCAG0LtZsXI1C" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCmbCAG0LtZsXI1D" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCmbCAG0LtZsXI1E" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCmbCAG0LtZsXI1F" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCmbCAG0LtZsXI1G" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCmcIlRsVEYAHfcm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCrCAhREYhbx42XO" : {
+              "-LV0TCrCAhREYhbx42XP" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCrCAhREYhbx42XQ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCrCAhREYhbx42XR" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCrCAhREYhbx42XS" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCrCAhREYhbx42XT" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCrCAhREYhbx42XU" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCrCAhREYhbx42XV" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCrCAhREYhbx42XW" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TD0aeEfQlInM5qIc" : {
+              "-LV0TD0aeEfQlInM5qId" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD0aeEfQlInM5qIe" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD0aeEfQlInM5qIf" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD0aeEfQlInM5qIg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD0aeEfQlInM5qIh" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD0aeEfQlInM5qIi" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD0aeEfQlInM5qIj" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD0aeEfQlInM5qIk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TD4uUuc9oDaiID8o" : {
+              "-LV0TD4uUuc9oDaiID8p" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD4uUuc9oDaiID8q" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD4uUuc9oDaiID8r" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD4uUuc9oDaiID8s" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD4uUuc9oDaiID8t" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD4uUuc9oDaiID8u" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD4uUuc9oDaiID8v" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD4uUuc9oDaiID8w" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TD8tfoVd9fYqCP4f" : {
+              "-LV0TD8tfoVd9fYqCP4g" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD8tfoVd9fYqCP4h" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD8tfoVd9fYqCP4i" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD8tfoVd9fYqCP4j" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD8tfoVd9fYqCP4k" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD8tfoVd9fYqCP4l" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD8tfoVd9fYqCP4m" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD8tfoVd9fYqCP4n" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TDEU5wzOdpz6AjPn" : {
+              "-LV0TDEVMilR6lP9oTCh" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TDEVMilR6lP9oTCi" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TDEVMilR6lP9oTCj" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TDEVMilR6lP9oTCk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TDEVMilR6lP9oTCl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TDEVMilR6lP9oTCm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TDEVMilR6lP9oTCn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TDEVMilR6lP9oTCo" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            }
+          },
+          "type" : "table",
+          "valuetype" : "string"
+        },
+        "-LV0TEphOTdioMiLZ81h" : {
+          "label" : "hey",
+          "type" : "singlefield",
+          "valuetype" : "string"
+        }
+      },
+      "3" : {
+        "-LV0SYnIjwvieq6fXkjm" : {
+          "axis" : "row",
+          "axispoints" : {
+            "-LV0S_-_2TCp1ldajPdu" : {
+              "label" : "geg",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_8mRb282Uo_TFNV" : {
+              "label" : "geger",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_I3D2BXzjaiDrpw" : {
+              "label" : "rgerger",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_PSHzPoQiQvUtMD" : {
+              "label" : "grgerg",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_TlWbokVa2UW6Xy" : {
+              "label" : "erger",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_Z5J7hJvymrlfqq" : {
+              "label" : "gerg",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_d-_XeJHAdQnX3s" : {
+              "label" : "ergre",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            },
+            "-LV0S_hs_-W75SgVEKiQ" : {
+              "label" : "gerge",
+              "type" : "singlefield",
+              "valuetype" : "checkbox"
+            }
+          },
+          "label" : "efweg",
+          "offsetaxispoints" : {
+            "-LV0SaVsuth44YdUO2ws" : {
+              "-LV0SaVsuth44YdUO2wt" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wu" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wv" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2ww" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wx" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wy" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVsuth44YdUO2wz" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SaVtbCmevhvVWGIM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0Sa_1M0Na7CoWeJyf" : {
+              "-LV0Sa_1M0Na7CoWeJyg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyh" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyi" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyj" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJym" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sa_1M0Na7CoWeJyn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0SadWLUCUtJ1TgRCk" : {
+              "-LV0SadWLUCUtJ1TgRCl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCo" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCp" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCq" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCr" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SadWLUCUtJ1TgRCs" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0Sah0Eq82cMPCTSdD" : {
+              "-LV0Sah0Eq82cMPCTSdE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdI" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdJ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdK" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Sah0Eq82cMPCTSdL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0SajuFVUVLThImBw4" : {
+              "-LV0SajuFVUVLThImBw5" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBw6" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBw7" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBw8" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBw9" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBwA" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBwB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0SajuFVUVLThImBwC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0Samd-zPFINJE4als" : {
+              "-LV0Samd-zPFINJE4alt" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alu" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alv" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alw" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alx" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4aly" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4alz" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0Samd-zPFINJE4am-" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCE_ZKxo9P62gBcB" : {
+              "-LV0TCE_ZKxo9P62gBcC" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCE_ZKxo9P62gBcD" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCE_ZKxo9P62gBcE" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCE_ZKxo9P62gBcF" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCE_ZKxo9P62gBcG" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCE_ZKxo9P62gBcH" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCE_ZKxo9P62gBcI" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCE_ZKxo9P62gBcJ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCJ1xp1LZMz0gu0g" : {
+              "-LV0TCJ2RxkRDQKE0RpQ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCJ2RxkRDQKE0RpR" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCJ2RxkRDQKE0RpS" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCJ2RxkRDQKE0RpT" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCJ2RxkRDQKE0RpU" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCJ2RxkRDQKE0RpV" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCJ2RxkRDQKE0RpW" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCJ2RxkRDQKE0RpX" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCN2lSvAEIeNZZeK" : {
+              "-LV0TCN2lSvAEIeNZZeL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCN2lSvAEIeNZZeM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCN2lSvAEIeNZZeN" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCN2lSvAEIeNZZeO" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCN2lSvAEIeNZZeP" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCN2lSvAEIeNZZeQ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCN2lSvAEIeNZZeR" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCN2lSvAEIeNZZeS" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCTQ4n8ri_TY-fUk" : {
+              "-LV0TCTQ4n8ri_TY-fUl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCTQ4n8ri_TY-fUm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCTQ4n8ri_TY-fUn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCTRXzz9qah0rgsp" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCTRXzz9qah0rgsq" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCTRXzz9qah0rgsr" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCTRXzz9qah0rgss" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCTRXzz9qah0rgst" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCVrGQIFa9Mtu0Lz" : {
+              "-LV0TCVrGQIFa9Mtu0M-" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCVrGQIFa9Mtu0M0" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCVrGQIFa9Mtu0M1" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCVrGQIFa9Mtu0M2" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCVrGQIFa9Mtu0M3" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCVrGQIFa9Mtu0M4" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCVrGQIFa9Mtu0M5" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCVrGQIFa9Mtu0M6" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCYEN-AMQU1IHpeb" : {
+              "-LV0TCYEN-AMQU1IHpec" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCYEN-AMQU1IHped" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCYEN-AMQU1IHpee" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCYEN-AMQU1IHpef" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCYEN-AMQU1IHpeg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCYFdpNI6tG39cSu" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCYFdpNI6tG39cSv" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCYFdpNI6tG39cSw" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TC_J7jMt5J4DYK4I" : {
+              "-LV0TC_J7jMt5J4DYK4J" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TC_J7jMt5J4DYK4K" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TC_J7jMt5J4DYK4L" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TC_J7jMt5J4DYK4M" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TC_J7jMt5J4DYK4N" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TC_J7jMt5J4DYK4O" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TC_J7jMt5J4DYK4P" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TC_J7jMt5J4DYK4Q" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCbXwc4-2fbcCpsW" : {
+              "-LV0TCbXwc4-2fbcCpsX" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCbXwc4-2fbcCpsY" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCbXwc4-2fbcCpsZ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCbYOSkZIIgEenAW" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCbYOSkZIIgEenAX" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCbYOSkZIIgEenAY" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCbYOSkZIIgEenAZ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCbYOSkZIIgEenA_" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCdoR8Mrr5YTdcRJ" : {
+              "-LV0TCdoR8Mrr5YTdcRK" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCdoR8Mrr5YTdcRL" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCdoR8Mrr5YTdcRM" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCdp0UhLRHUdsPId" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCdp0UhLRHUdsPIe" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCdp0UhLRHUdsPIf" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCdp0UhLRHUdsPIg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCdp0UhLRHUdsPIh" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCfqTCK-due3ErOh" : {
+              "-LV0TCfr_XcvEQjyIzK4" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCfr_XcvEQjyIzK5" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCfr_XcvEQjyIzK6" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCfr_XcvEQjyIzK7" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCfr_XcvEQjyIzK8" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCfr_XcvEQjyIzK9" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCfr_XcvEQjyIzKA" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCfr_XcvEQjyIzKB" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCi4sCsllGyEu0hl" : {
+              "-LV0TCi4sCsllGyEu0hm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCi4sCsllGyEu0hn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCi5nNEm7CVZd6xi" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCi5nNEm7CVZd6xj" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCi5nNEm7CVZd6xk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCi5nNEm7CVZd6xl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCi5nNEm7CVZd6xm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCi5nNEm7CVZd6xn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCkVAMSNGYdaSnCj" : {
+              "-LV0TCkVAMSNGYdaSnCk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCkVAMSNGYdaSnCl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCkVAMSNGYdaSnCm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCkVAMSNGYdaSnCn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCkVAMSNGYdaSnCo" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCkVAMSNGYdaSnCp" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCkVAMSNGYdaSnCq" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCkVAMSNGYdaSnCr" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCmbCAG0LtZsXI19" : {
+              "-LV0TCmbCAG0LtZsXI1A" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCmbCAG0LtZsXI1B" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCmbCAG0LtZsXI1C" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCmbCAG0LtZsXI1D" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCmbCAG0LtZsXI1E" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCmbCAG0LtZsXI1F" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCmbCAG0LtZsXI1G" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCmcIlRsVEYAHfcm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TCrCAhREYhbx42XO" : {
+              "-LV0TCrCAhREYhbx42XP" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCrCAhREYhbx42XQ" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCrCAhREYhbx42XR" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCrCAhREYhbx42XS" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCrCAhREYhbx42XT" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCrCAhREYhbx42XU" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCrCAhREYhbx42XV" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TCrCAhREYhbx42XW" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TD0aeEfQlInM5qIc" : {
+              "-LV0TD0aeEfQlInM5qId" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD0aeEfQlInM5qIe" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD0aeEfQlInM5qIf" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD0aeEfQlInM5qIg" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD0aeEfQlInM5qIh" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD0aeEfQlInM5qIi" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD0aeEfQlInM5qIj" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD0aeEfQlInM5qIk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TD4uUuc9oDaiID8o" : {
+              "-LV0TD4uUuc9oDaiID8p" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD4uUuc9oDaiID8q" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD4uUuc9oDaiID8r" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD4uUuc9oDaiID8s" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD4uUuc9oDaiID8t" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD4uUuc9oDaiID8u" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD4uUuc9oDaiID8v" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD4uUuc9oDaiID8w" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TD8tfoVd9fYqCP4f" : {
+              "-LV0TD8tfoVd9fYqCP4g" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD8tfoVd9fYqCP4h" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD8tfoVd9fYqCP4i" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD8tfoVd9fYqCP4j" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD8tfoVd9fYqCP4k" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD8tfoVd9fYqCP4l" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD8tfoVd9fYqCP4m" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TD8tfoVd9fYqCP4n" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            },
+            "-LV0TDEU5wzOdpz6AjPn" : {
+              "-LV0TDEVMilR6lP9oTCh" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TDEVMilR6lP9oTCi" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TDEVMilR6lP9oTCj" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TDEVMilR6lP9oTCk" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TDEVMilR6lP9oTCl" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TDEVMilR6lP9oTCm" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TDEVMilR6lP9oTCn" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              },
+              "-LV0TDEVMilR6lP9oTCo" : {
+                "type" : "singlefield",
+                "valuetype" : "checkbox"
+              }
+            }
+          },
+          "type" : "table",
+          "valuetype" : "string"
+        },
+        "-LV0TEphOTdioMiLZ81h" : {
+          "label" : "hey",
+          "type" : "singlefield",
+          "valuetype" : "string"
+        }
+      },
+      "created" : 1546212742529,
+      "published" : true,
+      "title" : "another",
+      "unpublishedchanges" : false,
+      "version" : 3
+    },
+    "-LV0WNSUlZSrMjs_KwJo" : {
+      "1" : {
+        "-LV0WQqIJg_xK9tbJoy9" : {
+          "axis" : "column",
+          "axispoints" : {
+            "-LV0WUT583c9ww2pA1Sr" : {
+              "label" : "Time",
+              "type" : "singlefield",
+              "valuetype" : "time"
+            },
+            "-LV0WWFdWDSdhla2SOLZ" : {
+              "label" : "Reel Number",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV0WXY2W85LONiNkBWc" : {
+              "label" : "Lot Number",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV0WZh2mYjg4B-uerab" : {
+              "label" : "OP",
+              "type" : "singlefield",
+              "valuetype" : "string"
+            },
+            "-LV0WaTQo_MXCYn5LXGn" : {
+              "label" : "Doc Wt",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV0WcI_FYsKuHYNZezQ" : {
+              "label" : "Act Wt",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV0WdougCr09nhrFydm" : {
+              "label" : "Doc mEter",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV0Wf43-1Njccysk2ds" : {
+              "label" : "Act Meter",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV0Wh-I_pjNPL42N5qh" : {
+              "label" : "Act meter",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            }
+          },
+          "label" : "Reel Issue Details",
+          "offsetaxispoints" : {
+            "-LV0WjSTgkDOwA2iUsjg" : {
+              "-LV0WjSTgkDOwA2iUsjh" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjSUN3rXQkREWu7o" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjSUN3rXQkREWu7p" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjSUN3rXQkREWu7q" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjSUN3rXQkREWu7r" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjSUN3rXQkREWu7s" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjSUN3rXQkREWu7t" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjSUN3rXQkREWu7u" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjSUN3rXQkREWu7v" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0WjXGSNDI5r7ylWC1" : {
+              "-LV0WjXGSNDI5r7ylWC2" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjXGSNDI5r7ylWC3" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjXGSNDI5r7ylWC4" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjXHeodRy9r0UfXf" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjXHeodRy9r0UfXg" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjXHeodRy9r0UfXh" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjXHeodRy9r0UfXi" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjXHeodRy9r0UfXj" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjXHeodRy9r0UfXk" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0WjZV0dmXMRGXng31" : {
+              "-LV0WjZWRqBcAGzGuwEW" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjZWRqBcAGzGuwEX" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjZWRqBcAGzGuwEY" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjZWRqBcAGzGuwEZ" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjZWRqBcAGzGuwE_" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjZWRqBcAGzGuwEa" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjZWRqBcAGzGuwEb" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjZWRqBcAGzGuwEc" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjZWRqBcAGzGuwEd" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0Wja_iGS7G8ZnxYPX" : {
+              "-LV0Wja_iGS7G8ZnxYPY" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0Wja_iGS7G8ZnxYPZ" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wja_iGS7G8ZnxYP_" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wja_iGS7G8ZnxYPa" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0Wja_iGS7G8ZnxYPb" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjaaEU1TdZTyyaG1" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjaaEU1TdZTyyaG2" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjaaEU1TdZTyyaG3" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjaaEU1TdZTyyaG4" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0WjczBfFQrcO-qWJJ" : {
+              "-LV0WjczBfFQrcO-qWJK" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjczBfFQrcO-qWJL" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjczBfFQrcO-qWJM" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjczBfFQrcO-qWJN" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjczBfFQrcO-qWJO" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjczBfFQrcO-qWJP" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjd-M4J_GLKrMVI-" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjd-M4J_GLKrMVI0" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjd-M4J_GLKrMVI1" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0WjfNmWyLZBOBGf9N" : {
+              "-LV0WjfNmWyLZBOBGf9O" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjfNmWyLZBOBGf9P" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjfNmWyLZBOBGf9Q" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjfNmWyLZBOBGf9R" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjfNmWyLZBOBGf9S" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjfNmWyLZBOBGf9T" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjfOpJsbuUpvD222" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjfOpJsbuUpvD223" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjfOpJsbuUpvD224" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0WjhSN-pN_zGcgH4X" : {
+              "-LV0WjhSN-pN_zGcgH4Y" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjhSN-pN_zGcgH4Z" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjhSN-pN_zGcgH4_" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjhSN-pN_zGcgH4a" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjhSN-pN_zGcgH4b" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjhT95qa7TlObwd_" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjhT95qa7TlObwda" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjhT95qa7TlObwdb" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjhT95qa7TlObwdc" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0WjjhWw2sSqfIN3o2" : {
+              "-LV0WjjhWw2sSqfIN3o3" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjjhWw2sSqfIN3o4" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjjhWw2sSqfIN3o5" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjjhWw2sSqfIN3o6" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjjhWw2sSqfIN3o7" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjjhWw2sSqfIN3o8" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjjhWw2sSqfIN3o9" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjjhWw2sSqfIN3oA" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjjhWw2sSqfIN3oB" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0WjlxHb1eR9KK86SX" : {
+              "-LV0WjlxHb1eR9KK86SY" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjlxHb1eR9KK86SZ" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjlxHb1eR9KK86S_" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjlxHb1eR9KK86Sa" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjlxHb1eR9KK86Sb" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjlxHb1eR9KK86Sc" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjlxHb1eR9KK86Sd" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjlxHb1eR9KK86Se" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjlxHb1eR9KK86Sf" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0Wjr3reP2OtSviCRR" : {
+              "-LV0Wjr3reP2OtSviCRS" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0Wjr3reP2OtSviCRT" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjr3reP2OtSviCRU" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjr3reP2OtSviCRV" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0Wjr3reP2OtSviCRW" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjr3reP2OtSviCRX" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjr3reP2OtSviCRY" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjr3reP2OtSviCRZ" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjr3reP2OtSviCR_" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            }
+          },
+          "type" : "table",
+          "valuetype" : "string"
+        }
+      },
+      "2" : {
+        "-LV0WQqIJg_xK9tbJoy9" : {
+          "axis" : "column",
+          "axispoints" : {
+            "-LV0WUT583c9ww2pA1Sr" : {
+              "label" : "Time",
+              "type" : "singlefield",
+              "valuetype" : "time"
+            },
+            "-LV0WWFdWDSdhla2SOLZ" : {
+              "label" : "Reel Number",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV0WXY2W85LONiNkBWc" : {
+              "label" : "Lot Number",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV0WZh2mYjg4B-uerab" : {
+              "label" : "OP",
+              "type" : "singlefield",
+              "valuetype" : "string"
+            },
+            "-LV0WaTQo_MXCYn5LXGn" : {
+              "label" : "Doc Wt",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV0WcI_FYsKuHYNZezQ" : {
+              "label" : "Act Wt",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV0WdougCr09nhrFydm" : {
+              "label" : "Doc mEter",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV0Wf43-1Njccysk2ds" : {
+              "label" : "Act Meter",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            },
+            "-LV0Wh-I_pjNPL42N5qh" : {
+              "label" : "Act meter",
+              "type" : "singlefield",
+              "valuetype" : "number"
+            }
+          },
+          "label" : "Reel Issue Details",
+          "offsetaxispoints" : {
+            "-LV0WjSTgkDOwA2iUsjg" : {
+              "-LV0WjSTgkDOwA2iUsjh" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjSUN3rXQkREWu7o" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjSUN3rXQkREWu7p" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjSUN3rXQkREWu7q" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjSUN3rXQkREWu7r" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjSUN3rXQkREWu7s" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjSUN3rXQkREWu7t" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjSUN3rXQkREWu7u" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjSUN3rXQkREWu7v" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0WjXGSNDI5r7ylWC1" : {
+              "-LV0WjXGSNDI5r7ylWC2" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjXGSNDI5r7ylWC3" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjXGSNDI5r7ylWC4" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjXHeodRy9r0UfXf" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjXHeodRy9r0UfXg" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjXHeodRy9r0UfXh" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjXHeodRy9r0UfXi" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjXHeodRy9r0UfXj" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjXHeodRy9r0UfXk" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0WjZV0dmXMRGXng31" : {
+              "-LV0WjZWRqBcAGzGuwEW" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjZWRqBcAGzGuwEX" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjZWRqBcAGzGuwEY" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjZWRqBcAGzGuwEZ" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjZWRqBcAGzGuwE_" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjZWRqBcAGzGuwEa" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjZWRqBcAGzGuwEb" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjZWRqBcAGzGuwEc" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjZWRqBcAGzGuwEd" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0Wja_iGS7G8ZnxYPX" : {
+              "-LV0Wja_iGS7G8ZnxYPY" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0Wja_iGS7G8ZnxYPZ" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wja_iGS7G8ZnxYP_" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wja_iGS7G8ZnxYPa" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0Wja_iGS7G8ZnxYPb" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjaaEU1TdZTyyaG1" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjaaEU1TdZTyyaG2" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjaaEU1TdZTyyaG3" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjaaEU1TdZTyyaG4" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0WjczBfFQrcO-qWJJ" : {
+              "-LV0WjczBfFQrcO-qWJK" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjczBfFQrcO-qWJL" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjczBfFQrcO-qWJM" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjczBfFQrcO-qWJN" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjczBfFQrcO-qWJO" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjczBfFQrcO-qWJP" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjd-M4J_GLKrMVI-" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjd-M4J_GLKrMVI0" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjd-M4J_GLKrMVI1" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0WjfNmWyLZBOBGf9N" : {
+              "-LV0WjfNmWyLZBOBGf9O" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjfNmWyLZBOBGf9P" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjfNmWyLZBOBGf9Q" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjfNmWyLZBOBGf9R" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjfNmWyLZBOBGf9S" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjfNmWyLZBOBGf9T" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjfOpJsbuUpvD222" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjfOpJsbuUpvD223" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjfOpJsbuUpvD224" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0WjhSN-pN_zGcgH4X" : {
+              "-LV0WjhSN-pN_zGcgH4Y" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjhSN-pN_zGcgH4Z" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjhSN-pN_zGcgH4_" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjhSN-pN_zGcgH4a" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjhSN-pN_zGcgH4b" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjhT95qa7TlObwd_" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjhT95qa7TlObwda" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjhT95qa7TlObwdb" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjhT95qa7TlObwdc" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0WjjhWw2sSqfIN3o2" : {
+              "-LV0WjjhWw2sSqfIN3o3" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjjhWw2sSqfIN3o4" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjjhWw2sSqfIN3o5" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjjhWw2sSqfIN3o6" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjjhWw2sSqfIN3o7" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjjhWw2sSqfIN3o8" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjjhWw2sSqfIN3o9" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjjhWw2sSqfIN3oA" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjjhWw2sSqfIN3oB" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0WjlxHb1eR9KK86SX" : {
+              "-LV0WjlxHb1eR9KK86SY" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0WjlxHb1eR9KK86SZ" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjlxHb1eR9KK86S_" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjlxHb1eR9KK86Sa" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0WjlxHb1eR9KK86Sb" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjlxHb1eR9KK86Sc" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjlxHb1eR9KK86Sd" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjlxHb1eR9KK86Se" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0WjlxHb1eR9KK86Sf" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            },
+            "-LV0Wjr3reP2OtSviCRR" : {
+              "-LV0Wjr3reP2OtSviCRS" : {
+                "type" : "singlefield",
+                "valuetype" : "time"
+              },
+              "-LV0Wjr3reP2OtSviCRT" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjr3reP2OtSviCRU" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjr3reP2OtSviCRV" : {
+                "type" : "singlefield",
+                "valuetype" : "string"
+              },
+              "-LV0Wjr3reP2OtSviCRW" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjr3reP2OtSviCRX" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjr3reP2OtSviCRY" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjr3reP2OtSviCRZ" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              },
+              "-LV0Wjr3reP2OtSviCR_" : {
+                "type" : "singlefield",
+                "valuetype" : "number"
+              }
+            }
+          },
+          "type" : "table",
+          "valuetype" : "string"
+        }
+      },
+      "created" : 1546213748837,
+      "published" : true,
+      "title" : "real",
+      "unpublishedchanges" : false,
+      "version" : 2
+    },
+    "-LVCcLRyhz1u3K6ILXRv" : {
+      "1" : {
+        "-LVCcMXUMMh507ZGuhaP" : {
+          "label" : "hello",
+          "type" : "singlefield",
+          "valuetype" : "string"
+        },
+        "-LVCcN9DKGGRyqp0nOBj" : {
+          "label" : "hey",
+          "type" : "singlefield",
+          "valuetype" : "number"
+        },
+        "-LVCcNq7HsaoccvENMB-" : {
+          "label" : "trial",
+          "type" : "singlefield",
+          "valuetype" : "checkbox"
+        },
+        "-LVCcOT46-jOzQ_OsNgU" : {
+          "label" : "wow",
+          "type" : "singlefield",
+          "valuetype" : "date"
+        },
+        "-LVCcPXtpl49GoefQ4oN" : {
+          "label" : "try",
+          "options" : "erertt$tet$tetert",
+          "type" : "dropdown",
+          "valuetype" : "select"
+        }
+      },
+      "2" : {
+        "-LVCcMXUMMh507ZGuhaP" : {
+          "label" : "hello",
+          "type" : "singlefield",
+          "valuetype" : "string"
+        },
+        "-LVCcN9DKGGRyqp0nOBj" : {
+          "label" : "hey",
+          "type" : "singlefield",
+          "valuetype" : "number"
+        },
+        "-LVCcNq7HsaoccvENMB-" : {
+          "label" : "trial",
+          "type" : "singlefield",
+          "valuetype" : "checkbox"
+        },
+        "-LVCcOT46-jOzQ_OsNgU" : {
+          "label" : "wow",
+          "type" : "singlefield",
+          "valuetype" : "date"
+        },
+        "-LVCcPXtpl49GoefQ4oN" : {
+          "label" : "try",
+          "options" : "erertt$tet$tetert",
+          "type" : "dropdown",
+          "valuetype" : "select"
+        },
+        "-LVCdR0YIY6yZonz19_v" : {
+          "label" : "spaces",
+          "type" : "singlefield",
+          "valuetype" : "empty"
+        },
+        "-LVCdSBObKrwyEOfracu" : {
+          "label" : "hello",
+          "type" : "singlefield",
+          "valuetype" : "string"
+        }
+      },
+      "3" : {
+        "-LVCcMXUMMh507ZGuhaP" : {
+          "label" : "hello",
+          "type" : "singlefield",
+          "valuetype" : "string"
+        },
+        "-LVCcN9DKGGRyqp0nOBj" : {
+          "label" : "hey",
+          "type" : "singlefield",
+          "valuetype" : "number"
+        },
+        "-LVCcNq7HsaoccvENMB-" : {
+          "label" : "trial",
+          "type" : "singlefield",
+          "valuetype" : "checkbox"
+        },
+        "-LVCcOT46-jOzQ_OsNgU" : {
+          "label" : "wow",
+          "type" : "singlefield",
+          "valuetype" : "date"
+        },
+        "-LVCcPXtpl49GoefQ4oN" : {
+          "label" : "try",
+          "options" : "erertt$tet$tetert",
+          "type" : "dropdown",
+          "valuetype" : "select"
+        },
+        "-LVCdR0YIY6yZonz19_v" : {
+          "label" : "spaces",
+          "type" : "singlefield",
+          "valuetype" : "empty"
+        },
+        "-LVCdSBObKrwyEOfracu" : {
+          "label" : "hello",
+          "type" : "singlefield",
+          "valuetype" : "string"
+        }
+      },
+      "created" : 1546416901839,
+      "published" : true,
+      "title" : "single",
+      "unpublishedchanges" : false,
+      "version" : 3
+    },
+    "-LVII5y9YhwS4APB9-5g" : {
+      "1" : {
+        "-LVII7qT3d2haeS9ZscW" : {
+          "label" : "string",
+          "type" : "singlefield",
+          "valuetype" : "string"
+        },
+        "-LVII8Xpswye7DNBIkIe" : {
+          "label" : "num",
+          "type" : "singlefield",
+          "valuetype" : "number"
+        }
+      },
+      "2" : {
+        "-LVII7qT3d2haeS9ZscW" : {
+          "label" : "string",
+          "type" : "singlefield",
+          "valuetype" : "string"
+        },
+        "-LVII8Xpswye7DNBIkIe" : {
+          "label" : "num",
+          "type" : "singlefield",
+          "valuetype" : "number"
+        },
+        "-LVIIaeJF_z2qh_X2CJB" : {
+          "label" : "another",
+          "type" : "singlefield",
+          "valuetype" : "string"
+        }
+      },
+      "3" : {
+        "-LVII7qT3d2haeS9ZscW" : {
+          "label" : "string",
+          "type" : "singlefield",
+          "valuetype" : "string"
+        },
+        "-LVII8Xpswye7DNBIkIe" : {
+          "label" : "num",
+          "type" : "singlefield",
+          "valuetype" : "number"
+        },
+        "-LVIIaeJF_z2qh_X2CJB" : {
+          "label" : "another",
+          "type" : "singlefield",
+          "valuetype" : "string"
+        }
+      },
+      "created" : 1546511996675,
+      "published" : true,
+      "title" : "new",
+      "unpublishedchanges" : false,
+      "version" : 3
+    }
+  }
+}

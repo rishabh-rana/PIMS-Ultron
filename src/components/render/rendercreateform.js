@@ -217,17 +217,19 @@ const RenderForm = props => {
                 {content}
                 <hr />
                 <div style={{ display: "inline-block", width: "100px" }}>
-                  <button
-                    onClick={() => addoffsetaxis(formid, version, id, valtypes)}
-                  >
-                    Add {json[id].axis}s
-                  </button>
+                  <input
+                    onKeyPress={e =>
+                      addoffsetaxis(formid, version, id, valtypes, e)
+                    }
+                    className="form-control"
+                    placeholder="Enter Label for new offset"
+                  />
 
                   <h1>
                     {json &&
                       json[id].offsetaxispoints &&
                       Object.keys(json[id].offsetaxispoints).length}{" "}
-                    {json[id].axis}s
+                    {json[id].axis === "row" ? "column" : "row"}s
                   </h1>
                 </div>
               </div>

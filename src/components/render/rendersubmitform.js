@@ -5,18 +5,15 @@ import Table from "./rendertable";
 
 class RenderForm extends Component {
   componentDidMount() {
-    if (this.props.json.submissionid && this.props.submissionid === null) {
-      this.props.getformdata(this.props.json.submissionid);
+    if (this.props.currentsubid && this.props.submissionid === null) {
+      this.props.getformdata(this.props.currentsubid);
     } else if (this.props.submissionid) {
       this.props.getformdata(this.props.submissionid);
     } else {
       this.props.getformdata(null);
     }
 
-    if (
-      this.props.submissionid === null &&
-      !this.props.json.hasOwnProperty("submissionid")
-    ) {
+    if (this.props.submissionid === null && this.props.currentsubid === null) {
       var pub = (parseInt(this.props.json.version) - 1).toString();
       this.props.startsubmitvaluetodb(this.props.formid, pub);
     }
@@ -25,7 +22,6 @@ class RenderForm extends Component {
   render() {
     var {
       json,
-      startsubmitvaluetodb,
       writedatatosubmissionid,
       writetabledatatosubmissionid,
       formid,
@@ -36,7 +32,6 @@ class RenderForm extends Component {
     var publishedversion;
 
     if (this.props.disabled) {
-      startsubmitvaluetodb = () => console.log("disabled");
       writedatatosubmissionid = () => console.log("disabled");
       publishsubmission = () => console.log("disabled");
       publishedversion = this.props.formversion;
@@ -55,7 +50,7 @@ class RenderForm extends Component {
             Object.keys(json).map(id => {
               let functionhandler = e =>
                 writedatatosubmissionid(
-                  this.props.json.submissionid,
+                  this.props.currentsubid,
                   id,
                   json[id].valuetype,
                   e
@@ -75,9 +70,17 @@ class RenderForm extends Component {
                       id={id}
                       formvalues={formvalues}
                       functionhandler={functionhandler}
+                      reactselecthandler={e =>
+                        writedatatosubmissionid(
+                          this.props.currentsubid,
+                          id,
+                          "dropdown",
+                          e
+                        )
+                      }
                       blureventhandler={e =>
                         writedatatosubmissionid(
-                          this.props.json.submissionid,
+                          this.props.currentsubid,
                           id,
                           "blurevent",
                           e
@@ -88,9 +91,8 @@ class RenderForm extends Component {
                 );
               } else if (json[id].type === "table") {
                 return (
-                  <div className="col-12">
+                  <div className="col-12" key={id}>
                     <Table
-                      key={id}
                       tableid={id}
                       json={json[id]}
                       purejson={this.props.json}
@@ -99,11 +101,17 @@ class RenderForm extends Component {
                       writetabledatatosubmissionid={
                         writetabledatatosubmissionid
                       }
-                      submissionid={this.props.json.submissionid}
+                      submissionid={this.props.currentsubid}
                       formid={formid}
                       version={publishedversion}
                       addoffsetaxis={this.props.addoffsetaxis}
                     />
+                  </div>
+                );
+              } else if (json[id].type === "rowchange") {
+                return (
+                  <div className="col-12" key={id}>
+                    <h1>{json[id].valtype === "section" && json[id].label}</h1>
                   </div>
                 );
               }

@@ -63,6 +63,7 @@ class ViewShell extends Component {
       content = (
         <Renderform
           key={this.props.view.selectedform}
+          currentsubid={null}
           json={this.props.create.forms[this.props.view.selectedform]}
           formid={this.props.view.selectedform}
           getformdata={this.props.getformdata}
